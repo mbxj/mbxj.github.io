@@ -1,4 +1,7 @@
-#EXTM3U
+#EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
+#EXTINF:-1,设备一台，超了屏蔽新增补差价
+http://play-a2.quklive.com/live/1668501533304136.m3u8
+
 #EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/CCTV1" tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视",CCTV1-综合
 http://58.19.182.187:9901/tsfile/live/0001_1.m3u8?key=tvbox6_com&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/CCTV2" tvg-id="CCTV2" tvg-name="CCTV2" group-title="央视",CCTV2-财经
