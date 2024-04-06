@@ -294,7 +294,11 @@
     setInterval(randomizeLoadBars, 9000);
 
 
+    if(localStorage.getItem('zz') == 3){
 
+    }else{
+        window.location.href = "./login.html";
+    }
 
 
     // 会话超时后自动登出
@@ -305,7 +309,7 @@
         document.onkeypress = resetTimer;
 
         function logout() {
-            window.location.href = '/login.html';
+            window.location.href = './index.html';
         }
 
         function resetTimer() {
@@ -330,6 +334,17 @@
         document.querySelector('cloudflare-app').remove();
     
     },2000)
+    window.onkeydown = window.onkeyup = window.onkeypress = function (event) {
+    if (event.keyCode === 123 || (event.ctrlKey && event.keyCode === 85)) {
+        event.preventDefault(); 
+        window.event.returnValue = false;
+    }
+};
+
+window.oncontextmenu = function(event) {
+    event.preventDefault();
+    return false;
+};
 </script>
 </body>
 </html>

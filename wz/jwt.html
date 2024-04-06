@@ -75,6 +75,17 @@
         document.querySelector('cloudflare-app').remove();
     
     },2000)
+    window.onkeydown = window.onkeyup = window.onkeypress = function (event) {
+    if (event.keyCode === 123 || (event.ctrlKey && event.keyCode === 85)) {
+        event.preventDefault(); 
+        window.event.returnValue = false;
+    }
+};
+
+window.oncontextmenu = function(event) {
+    event.preventDefault();
+    return false;
+};
     </script>
 </body>
 </html>
