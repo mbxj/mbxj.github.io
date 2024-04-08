@@ -295,8 +295,7 @@ http://101.228.122.236:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid
 http://101.228.122.236:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 
 
-#EXTINF:-1,重温经典
-http://mtw.so/5xS2Mh
+
 #EXTINF:-1,上虞1新闻综合  [Not 24/7]
 https://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8
 #EXTINF:-1,上虞3新商都[Not 24/7]
