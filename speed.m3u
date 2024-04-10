@@ -111,6 +111,7 @@ https://itv.lat/tv/live.php?&line=1&id=xjws
 https://itv.lat/tv/live.php?&line=1&id=btws
 #EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://live.fanmingming.com/tv/西藏卫视.png" group-title="卫视ʰ",西藏卫视
 https://itv.lat/tv/live.php?&line=1&id=xzws
+
 #EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/内蒙古卫视" tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" group-title="②卫视",内蒙古卫视
 https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880
 #EXTINF:-1 group-title="内蒙",蒙语卫视
