@@ -12,10 +12,9 @@ http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzh.m3u8?zjiangsd
 #EXTINF:-1,泗阳资讯频道
 http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzx.m3u8?zjiangsd
 
-#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视ʰ",CCTV-1 综合
-https://itv.lat/tv/live.php?&line=1&id=cctv1
-#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="央视ʰ",CCTV-2 财经
-https://itv.lat/tv/live.php?&line=1&id=cctv2
-
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/CCTV1综合" tvg-id="CCTV1综合" tvg-name="CCTV1综合" group-title="上海闵行电信",CCTV1综合
+http://101.224.32.157:9876/udp/239.45.3.145:5140
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/CCTV2财经" tvg-id="CCTV2财经" tvg-name="CCTV2财经" group-title="上海闵行电信",CCTV2财经
+http://101.224.32.157:9876/udp/239.45.1.109:5140
 
 
