@@ -42,6 +42,8 @@ http://1.24.190.98:10080/hls/66/index.m3u8
 http://1.24.190.98:10080/hls/61/index.m3u8
 #EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/湖南卫视" tvg-id="湖南卫视" tvg-name="湖南卫视" group-title="央视+卫视",湖南卫视
 http://1.24.190.98:10080/hls/60/index.m3u8
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/浙江卫视" tvg-id="浙江卫视" tvg-name="浙江卫视" group-title="央视+卫视",浙江卫视
+http://101.224.32.157:9876/udp/239.45.3.178:5140
 #EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/深圳卫视" tvg-id="深圳卫视" tvg-name="深圳卫视" group-title="央视+卫视",深圳卫视
 http://1.24.190.98:10080/hls/76/index.m3u8
 #EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/广东卫视" tvg-id="广东卫视" tvg-name="广东卫视" group-title="央视+卫视",广东卫视
