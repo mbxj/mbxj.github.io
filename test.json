@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "豆豆",
-      "name": "🌕公众号【神秘的哥哥们】",
+      "name": "🌕公众号【神秘的弟弟们】",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
@@ -120,15 +120,6 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://www.maolvys.com/"
-    },
-    {
-      "key": "比特",
-      "name": "🍄比特┃秒播",
-      "type": 3,
-      "api": "csp_Bttwoo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
     },
     {
       "key": "一起看 ",
@@ -390,19 +381,6 @@
       }
     },
     {
-      "key": "UpYun",
-      "name": "😻Up搜┃搜索",
-      "type": 3,
-      "api": "csp_UpYun",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "aliToken": "tvfan/token.txt",
-        "from": "4k|auto|fhd"
-      }
-    },
-    {
       "key": "push_agent",
       "name": "🛴手机┃推送",
       "type": 3,
@@ -414,34 +392,6 @@
         "quarkCookie": "tvfan/cookie.txt",
         "from": "4k|auto|fhd"
       }
-    },
-    {
-      "key": "Bili",
-      "name": "🅱哔哔┃合集",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/bilibili.json"
-    },
-    {
-      "key": "Biliych",
-      "name": "🅱明星┃演唱会",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/biliych.json"
     },
     {
       "key": "dr_兔小贝",
