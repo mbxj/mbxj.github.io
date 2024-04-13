@@ -15,7 +15,7 @@
     },
     {
       "key": "豆豆",
-      "name": "🌕公众号【神秘的叼毛们】",
+      "name": "🌕公众号【神秘的弟弟们】",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
@@ -31,6 +31,9 @@
       "quickSearch": 0,
       "changeable": 0
     },
+    {"key":"一起看","name":"🍊抹茶妹妹2.5k","type":3,"api":"csp_YQKan","searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"csp_Kunyu77","name":"🍊抹茶妹妹超清","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"贱贱","name":"🍊抹茶妹妹超清","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js","ext":"https://agit.ai/fantaiying/fty/raw/branch/master/ext/jp.js"},
     {
       "key": "短剧",
       "name": "🌈上头┃短剧",
