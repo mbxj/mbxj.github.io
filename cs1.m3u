@@ -11,5 +11,21 @@ http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel8/play
 http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzh.m3u8?zjiangsd
 #EXTINF:-1,泗阳资讯频道
 http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzx.m3u8?zjiangsd
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV-1综合
+http://61.141.138.164:8888/rtp/239.77.0.30:5146
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV-1
+http://61.141.138.164:8888/rtp/239.77.1.20:5146
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV-1
+http://61.141.138.164:8888/rtp/239.77.0.241:5146
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV-1高清
+http://61.141.138.164:8888/rtp/239.77.1.17:5146
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV-1高清
+http://61.141.138.164:8888/rtp/239.77.1.144:5146
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV-1高清
+http://61.141.138.164:8888/rtp/239.77.0.119:5146
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV-1高清(CCTV -1综合高清)
+http://61.141.138.164:8888/rtp/239.77.0.86:5146
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV-1超清
+http://61.141.138.164:8888/rtp/239.77.0.129:5146
 #EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/CCTV1" tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视",CCTV1-综合
 http://123.163.114.5:85/tsfile/live/0001_1.m3u8?key=txiptv
