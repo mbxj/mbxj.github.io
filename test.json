@@ -2,7 +2,7 @@
 {
   "spider": "http://mdxgh.tpddns.cn:9999/mdlib/spider.jar",
   "wallpaper": "https://tool.weetai.cn/api",
-  "warningText": "抹茶妹妹",
+  "warningText": "抹茶妹妹为你服务",
   "lives": [
       {
           "name": "live",
@@ -14,7 +14,7 @@
   "sites": [
       {
           "key": "豆瓣",
-          "name": "😘 | 关注公众号【码点小干货】",
+          "name": "抹茶妹妹",
           "type": 3,
           "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
           "searchable": 0,
@@ -23,15 +23,8 @@
           "ext": "http://mdxgh.tpddns.cn:9999/mdlib/douban.js"
       },
       {
-          "key": "荐片",
-          "name": "😃 | 荐片",
-          "type": 3,
-          "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
-          "ext": "http://mdxgh.tpddns.cn:9999/mdlib/jianpian.js"
-      },
-      {
           "key": "csp_Kuaikan",
-          "name": "😅 | 快看",
+          "name": "抹茶😅 | 快看",
           "type": 3,
           "api": "csp_Kuaikan",
           "searchable": 1,
@@ -40,7 +33,7 @@
       },
       {
           "key": "csp_Ikanbot",
-          "name": "😆 | Ikan",
+          "name": "抹茶😆 | Ikan",
           "type": 3,
           "api": "csp_Ikanbot",
           "searchable": 1,
@@ -49,7 +42,7 @@
       },
       {
           "key": "低端影视",
-          "name": "😉 | 低端",
+          "name": "抹茶😉 | 低端",
           "type": 3,
           "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
           "searchable": 1,
@@ -59,7 +52,7 @@
       },
       {
           "key": "厂长",
-          "name": "😊 | 厂长",
+          "name": "抹茶😊 | 厂长",
           "type": 3,
           "api": "csp_Czsapp",
           "playerType": 2,
@@ -70,7 +63,7 @@
       },
       {
           "key": "达达龟",
-          "name": "😋 | 达龟",
+          "name": "抹茶😋 | 达龟",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -81,7 +74,7 @@
       },
       {
           "key": "csp_星辰",
-          "name": "😎 | 星辰",
+          "name": "抹茶😎 | 星辰",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -91,7 +84,7 @@
       },
       {
           "key": "csp_vs",
-          "name": "😍 | VS",
+          "name": "抹茶😍 | VS",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -101,7 +94,7 @@
       },
       {
           "key": "csp_xBPQ_九八",
-          "name": "😘 | 九八",
+          "name": "抹茶😘 | 九八",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -111,7 +104,7 @@
       },
       {
           "key": "玩偶哥哥",
-          "name": "😂 | 玩偶",
+          "name": "抹茶😂 | 玩偶",
           "type": 3,
           "api": "csp_WoGG",
           "searchable": 1,
@@ -122,7 +115,7 @@
       },
       {
           "key": "csp_xBPQ_疯狗",
-          "name": "😗 | 疯狗",
+          "name": "抹茶😗 | 疯狗",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -132,13 +125,13 @@
       },
       {
           "key": "熊掌",
-          "name": "😇 | 熊掌",
+          "name": "抹茶😇 | 熊掌",
           "type": 1,
           "api": "https://xzcjz.com/api.php/provide/vod"
       },
       {
           "key": "益达影视",
-          "name": "😐 | 美益",
+          "name": "抹茶😐 | 美益",
           "type": 3,
           "api": "csp_AppYsV2",
           "searchable": 1,
@@ -148,7 +141,7 @@
       },
       {
           "key": "csp_五五",
-          "name": "😶 | 五五",
+          "name": "抹茶😶 | 五五",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -158,7 +151,7 @@
       },
       {
           "key": "奈飞影视",
-          "name": "😣 | 奈飞",
+          "name": "抹茶😣 | 奈飞",
           "type": 3,
           "api": "csp_XYQHiker",
           "searchable": 1,
@@ -168,7 +161,7 @@
       },
       {
           "key": "奈飞中文",
-          "name": "😮 | 飞播",
+          "name": "抹茶😮 | 飞播",
           "type": 3,
           "api": "csp_XYQHiker",
           "searchable": 1,
@@ -178,7 +171,7 @@
       },
       {
           "key": "兄弟影视",
-          "name": "😯 | 兄弟",
+          "name": "抹茶😯 | 兄弟",
           "type": 3,
           "api": "csp_XYQHiker",
           "searchable": 1,
@@ -188,7 +181,7 @@
       },
       {
           "key": "csp_盒子",
-          "name": "😛 | 盒播",
+          "name": "抹茶😛 | 盒播",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -198,7 +191,7 @@
       },
       {
           "key": "348影视",
-          "name": "😜 | 348",
+          "name": "抹茶😜 | 348",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -208,7 +201,7 @@
       },
       {
           "key": "csp_Free",
-          "name": "😝 | Free",
+          "name": "抹茶😝 | Free",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -218,7 +211,7 @@
       },
       {
           "key": "csp_黑狐",
-          "name": "😲 | 黑狐",
+          "name": "抹茶😲 | 黑狐",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -228,7 +221,7 @@
       },
       {
           "key": "csp_xBPQ_奇优",
-          "name": "😕 | 奇优",
+          "name": "抹茶😕 | 奇优",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -238,7 +231,7 @@
       },
       {
           "key": "csp_好戏",
-          "name": "😖 | 好戏",
+          "name": "抹茶😖 | 好戏",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -248,7 +241,7 @@
       },
       {
           "key": "VIP影视",
-          "name": "😭 | VIP",
+          "name": "抹茶😭 | VIP",
           "type": 3,
           "api": "csp_XPath",
           "searchable": 1,
@@ -258,7 +251,7 @@
       },
       {
           "key": "七新影视",
-          "name": "😧 | 七新",
+          "name": "抹茶😧 | 七新",
           "type": 3,
           "api": "csp_XYQHiker",
           "searchable": 1,
@@ -268,7 +261,7 @@
       },
       {
           "key": "土豪影视",
-          "name": "😬 | 土豪",
+          "name": "抹茶😬 | 土豪",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -278,7 +271,7 @@
       },
       {
           "key": "圣城影视",
-          "name": "😱 | 圣城",
+          "name": "抹茶😱 | 圣城",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -288,7 +281,7 @@
       },
       {
           "key": "csp_视觉",
-          "name": "😵 | 视觉",
+          "name": "抹茶😵 | 视觉",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -298,7 +291,7 @@
       },
       {
           "key": "csp_蛋蛋",
-          "name": "😈 | 蛋蛋",
+          "name": "抹茶😈 | 蛋蛋",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -308,7 +301,7 @@
       },
       {
           "key": "米爱影视",
-          "name": "👿 | 米爱",
+          "name": "抹茶👿 | 米爱",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -317,8 +310,15 @@
           "ext": "http://mdxgh.tpddns.cn:9999/mdlib/miaiys.json"
       },
       {
+        "key": "荐片",
+        "name": "抹茶😃 | 荐片",
+        "type": 3,
+        "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
+        "ext": "http://mdxgh.tpddns.cn:9999/mdlib/jianpian.js"
+    },
+      {
           "key": "csp_xml_爱坤",
-          "name": "👹 | 爱坤",
+          "name": "抹茶👹 | 爱坤",
           "type": 1,
           "api": "https://ikunzyapi.com/api.php/provide/vod",
           "searchable": 1,
@@ -357,7 +357,7 @@
       },
       {
           "key": "csp_xml_红牛",
-          "name": "💀 | 红牛",
+          "name": "抹茶💀 | 红牛",
           "type": 1,
           "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
           "searchable": 1,
@@ -401,7 +401,7 @@
       },
       {
           "key": "索尼资源",
-          "name": "☠ | 索尼",
+          "name": "抹茶☠ | 索尼",
           "type": 1,
           "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
           "searchable": 1,
@@ -444,7 +444,7 @@
       },
       {
           "key": "csp_xml_新浪",
-          "name": "👻 | 新浪",
+          "name": "抹茶👻 | 新浪",
           "type": 1,
           "api": "https://api.xinlangapi.com/xinlangapi.php/provide//vod/",
           "searchable": 1,
@@ -483,7 +483,7 @@
       },
       {
           "key": "高清资源网",
-          "name": "👽 | 高清",
+          "name": "抹茶👽 | 高清",
           "type": 1,
           "api": "https://api.1080zyku.com/inc/apijson.php",
           "searchable": 1,
@@ -517,7 +517,7 @@
       },
       {
           "key": "麻衣呀呼",
-          "name": "😀 | 麻衣",
+          "name": "抹茶😀 | 麻衣",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -527,7 +527,7 @@
       },
       {
           "key": "热播之家",
-          "name": "😁 | 热播",
+          "name": "抹茶😁 | 热播",
           "type": 3,
           "api": "csp_XYQHiker",
           "searchable": 1,
@@ -537,7 +537,7 @@
       },
       {
           "key": "HDmoli",
-          "name": "😂 | 魔力",
+          "name": "抹茶😂 | 魔力",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -547,7 +547,7 @@
       },
       {
           "key": "策驰影院",
-          "name": "😃 | 策驰",
+          "name": "抹茶😃 | 策驰",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -557,7 +557,7 @@
       },
       {
           "key": "csp_Voflix",
-          "name": "😄 | Voflix",
+          "name": "抹茶😄 | Voflix",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -567,7 +567,7 @@
       },
       {
           "key": "csp_101",
-          "name": "😅 | 101影",
+          "name": "抹茶😅 | 101影",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -577,7 +577,7 @@
       },
       {
           "key": "Vidhub视频",
-          "name": "😆 | 频库",
+          "name": "抹茶😆 | 频库",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -587,7 +587,7 @@
       },
       {
           "key": "石榴影视",
-          "name": "😉 | 石榴",
+          "name": "抹茶😉 | 石榴",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -597,7 +597,7 @@
       },
       {
           "key": "两个BT",
-          "name": "😊 | 两个",
+          "name": "抹茶😊 | 两个",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -607,7 +607,7 @@
       },
       {
           "key": "七年影视",
-          "name": "😋 | 七年",
+          "name": "抹茶😋 | 七年",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -618,7 +618,7 @@
       },
       {
           "key": "csp_xml_百度",
-          "name": "😎 | 百度",
+          "name": "抹茶😎 | 百度",
           "type": 1,
           "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
           "searchable": 1,
@@ -662,7 +662,7 @@
       },
       {
           "key": "lzi",
-          "name": "😍 | 量子",
+          "name": "抹茶😍 | 量子",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -672,7 +672,7 @@
       },
       {
           "key": "非凡资源",
-          "name": "😘 | 非凡",
+          "name": "抹茶😘 | 非凡",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -682,14 +682,14 @@
       },
       {
           "key": "拳皇争霸",
-          "name": "😗 | 拳皇",
+          "name": "抹茶😗 | 拳皇",
           "type": 3,
           "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
           "ext": "http://mdxgh.tpddns.cn:9999/mdlib/quanhuang.js"
       },
       {
           "key": "csp短剧网",
-          "name": "😗 | 短剧",
+          "name": "抹茶😗 | 短剧",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -699,42 +699,42 @@
       },
       {
           "key": "爱奇异",
-          "name": "😚 | 爱艺",
+          "name": "抹茶😚 | 爱艺",
           "type": 3,
           "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
           "ext": "http://mdxgh.tpddns.cn:9999/mdlib/aiqiyi.js"
       },
       {
           "key": "优酷",
-          "name": "😇 | 酷官",
+          "name": "抹茶😇 | 酷官",
           "type": 3,
           "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
           "ext": "http://mdxgh.tpddns.cn:9999/mdlib/youku.js"
       },
       {
           "key": "腾讯",
-          "name": "😛 | 讯官",
+          "name": "抹茶😛 | 讯官",
           "type": 3,
           "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
           "ext": "http://mdxgh.tpddns.cn:9999/mdlib/tengxun.js"
       },
       {
           "key": "芒果",
-          "name": "😝 | 芒官",
+          "name": "抹茶😝 | 芒官",
           "type": 3,
           "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
           "ext": "http://mdxgh.tpddns.cn:9999/mdlib/mangguo.js"
       },
       {
           "key": "搜狗",
-          "name": "😔 | 搜官",
+          "name": "抹茶😔 | 搜官",
           "type": 3,
           "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
           "ext": "http://mdxgh.tpddns.cn:9999/mdlib/caigou.js"
       },
       {
           "key": "360影视",
-          "name": "😯 | 360",
+          "name": "抹茶😯 | 360",
           "type": 3,
           "api": "csp_SP360",
           "searchable": 1,
@@ -744,7 +744,7 @@
       },
       {
           "key": "csp_Mp4Mov",
-          "name": "🧲 | Mp4电影",
+          "name": "抹茶🧲 | Mp4电影",
           "type": 3,
           "api": "csp_Mp4Mov",
           "searchable": 1,
@@ -753,7 +753,7 @@
       },
       {
           "key": "csp_New6v",
-          "name": "🧲 | 新6V",
+          "name": "抹茶🧲 | 新6V",
           "type": 3,
           "api": "csp_New6v",
           "searchable": 1,
@@ -763,7 +763,7 @@
       },
       {
           "key": "csp_SeedHub",
-          "name": "🧲 | SeedHub",
+          "name": "抹茶🧲 | SeedHub",
           "type": 3,
           "api": "csp_SeedHub",
           "searchable": 1,
@@ -772,7 +772,7 @@
       },
       {
           "key": "csp_KubaCL",
-          "name": "🧲 | 酷吧电影",
+          "name": "抹茶🧲 | 酷吧电影",
           "type": 3,
           "api": "csp_KubaCL",
           "searchable": 1,
@@ -781,7 +781,7 @@
       },
       {
           "key": "csp_MeijuMi",
-          "name": "🧲 | 美剧迷",
+          "name": "抹茶🧲 | 美剧迷",
           "type": 3,
           "api": "csp_MeijuMi",
           "searchable": 1,
@@ -790,7 +790,7 @@
       },
       {
           "key": "csp_Xunlei8",
-          "name": "🧲 | 迅雷吧",
+          "name": "抹茶🧲 | 迅雷吧",
           "type": 3,
           "api": "csp_Xunlei8",
           "searchable": 1,
@@ -799,7 +799,7 @@
       },
       {
           "key": "Gitcafe",
-          "name": "📀 | 小纸条(搜索)",
+          "name": "抹茶📀 | 小纸条(搜索)",
           "type": 3,
           "api": "csp_Gitcafe",
           "searchable": 1,
@@ -809,7 +809,7 @@
       },
       {
           "key": "csp_Zhaozy",
-          "name": "📀 | 找资源(搜索)",
+          "name": "抹茶📀 | 找资源(搜索)",
           "type": 3,
           "api": "csp_Zhaozy",
           "searchable": 1,
@@ -819,7 +819,7 @@
       },
       {
           "key": "csp_Yisou",
-          "name": "📀 | 易搜(搜索)",
+          "name": "抹茶📀 | 易搜(搜索)",
           "type": 3,
           "api": "csp_Yisou",
           "searchable": 1,
@@ -829,7 +829,7 @@
       },
       {
           "key": "csp_Upyunso",
-          "name": "📀 | UP云搜(搜索)",
+          "name": "抹茶📀 | UP云搜(搜索)",
           "type": 3,
           "api": "csp_Upyunso",
           "searchable": 1,
@@ -839,7 +839,7 @@
       },
       {
           "key": "csp_XYQHikerAL_云盘资源",
-          "name": "📀 | 云盘资源(搜索)",
+          "name": "抹茶📀 | 云盘资源(搜索)",
           "type": 3,
           "api": "csp_XYQHikerAL",
           "searchable": 1,
@@ -849,7 +849,7 @@
       },
       {
           "key": "push_agent",
-          "name": "📨 | 影视推送",
+          "name": "抹茶📨 | 影视推送",
           "type": 3,
           "api": "csp_PushAgent",
           "searchable": 1,
@@ -859,7 +859,7 @@
       },
       {
           "key": "py_cctv",
-          "name": "🌔 | 央视大全",
+          "name": "抹茶🌔 | 央视大全",
           "type": 3,
           "api": "py_cctv",
           "searchable": 0,
@@ -869,7 +869,7 @@
       },
       {
           "key": "js_310直播",
-          "name": "🥎 | 三一直播",
+          "name": "抹茶🥎 | 三一直播",
           "type": 3,
           "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
           "searchable": 1,
@@ -879,7 +879,7 @@
       },
       {
           "key": "csp_XPath_企鹅体育",
-          "name": "🐧 | 企鹅体育",
+          "name": "抹茶🐧 | 企鹅体育",
           "type": 3,
           "api": "csp_XPath",
           "style": {
@@ -893,7 +893,7 @@
       },
       {
           "key": "88看球",
-          "name": "⚽ | 88看球",
+          "name": "抹茶⚽ | 88看球",
           "type": 3,
           "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
           "searchable": 0,
@@ -903,7 +903,7 @@
       },
       {
           "key": "JRKAN直播",
-          "name": "⚽ | JRKAN直播",
+          "name": "抹茶⚽ | JRKAN直播",
           "type": 3,
           "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
           "searchable": 0,
@@ -913,7 +913,7 @@
       },
       {
           "key": "虎牙直播",
-          "name": "🐯 | 虎牙直播",
+          "name": "抹茶🐯 | 虎牙直播",
           "type": 3,
           "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
           "searchable": 0,
@@ -923,7 +923,7 @@
       },
       {
           "key": "斗鱼直播",
-          "name": "🐟 | 斗鱼直播",
+          "name": "抹茶🐟 | 斗鱼直播",
           "type": 3,
           "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
           "searchable": 0,
@@ -933,7 +933,7 @@
       },
       {
           "key": "兔小贝",
-          "name": "🐰 | 兔小贝",
+          "name": "抹茶🐰 | 兔小贝",
           "type": 3,
           "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
           "searchable": 1,
