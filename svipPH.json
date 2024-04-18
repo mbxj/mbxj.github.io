@@ -1,6 +1,6 @@
 {
-  "spider":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;564F69FA12A8D491569E9631629E0011",
-  "wallpaper":"https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+   "spider": "http://mdxgh.tpddns.cn:9999/mdlib/spider.jar",
+  "wallpaper": "https://tool.weetai.cn/api",
   "sites":[
     {"key":"csp_WoGG","name":"🍊抹茶妹妹4k","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.xyz/$$$弹"},
     {"key":"一起看","name":"🍊抹茶妹妹2.5k","type":3,"api":"csp_YQKan","searchable":1,"quickSearch":1,"changeable":1},
