@@ -1,8 +1,6 @@
 #EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
 #EXTINF:-1,设备一台，超了屏蔽新增补差价
 http://live.dxhmt.cn:9081/tv/11281-1.m3u8
-#EXTINF:-1,tvg-id="BRTV体育休闲[超清]" tvg-name="BRTV体育休闲[超清]" tvg-logo="https://epg.112114.xyz/logo/BRTV体育休闲.png" group-title="其他",BRTV体育休闲[超清]
-http://223.72.33.71:2222/rtp/239.3.1.243:8000
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV-1 综合[高清]
 http://114.246.174.75:4022/rtp/239.3.1.129:8008
 #EXTINF:-1,tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="央视",CCTV-2 财经[高清]
@@ -115,7 +113,8 @@ http://114.246.174.75:4022/rtp/239.3.1.43:8176
 http://58.37.189.39:8088/rtp/239.45.3.210:5140?Cf=cfss.cc
 #EXTINF:-1 group-title="五星体育",五星体育
 http://101.224.36.25:9901/tsfile/live/0107_11.m3u8?key=txiptv
-
+#EXTINF:-1,tvg-id="BRTV体育休闲[超清]" tvg-name="BRTV体育休闲[超清]" tvg-logo="https://epg.112114.xyz/logo/BRTV体育休闲.png" group-title="其他",BRTV体育休闲[超清]
+http://223.72.33.71:2222/rtp/239.3.1.243:8000
 
 
 #EXTINF:-1,tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://epg.112114.xyz/logo/广东卫视.png" group-title="卫视",广东卫视
