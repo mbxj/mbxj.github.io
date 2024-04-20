@@ -12,6 +12,17 @@
       }
   ],
   "sites": [
+    {
+          "key": "玩偶哥哥",
+          "name": "抹茶😂 | 玩偶",
+          "type": 3,
+          "api": "csp_WoGG",
+          "searchable": 1,
+          "quickSearch": 1,
+          "changeable": 0,
+          "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹",
+          "jar":"http://mdxgh.tpddns.cn:9999/mdlib/wo.jar"
+      },
       {
           "key": "豆瓣",
           "name": "抹茶妹妹",
@@ -101,17 +112,6 @@
           "quickSearch": 1,
           "filterable": 1,
           "ext": "http://mdxgh.tpddns.cn:9999/mdlib/98.json"
-      },
-      {
-          "key": "玩偶哥哥",
-          "name": "抹茶😂 | 玩偶",
-          "type": 3,
-          "api": "csp_WoGG",
-          "searchable": 1,
-          "quickSearch": 1,
-          "changeable": 0,
-          "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹",
-          "jar":"http://mdxgh.tpddns.cn:9999/mdlib/wo.jar"
       },
       {
           "key": "csp_xBPQ_疯狗",
