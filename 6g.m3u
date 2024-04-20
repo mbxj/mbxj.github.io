@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 group-title="•4K",苏州4K
 http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
+#EXTINF:-1 group-title="五星体育",五星体育
+http://101.224.36.25:9901/tsfile/live/0107_11.m3u8?key=txiptv
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/cctv1.png" group-title="•央视「IPV6」",CCTV1「IPV6」
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://epg.112114.xyz/logo/cctv2.png" group-title="•央视「IPV6」",CCTV2「IPV6」
