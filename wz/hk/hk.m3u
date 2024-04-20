@@ -508,6 +508,12 @@ http://124.230.56.124:55555/rtp/239.76.254.2:9000
 #EXTINF:-1,tvg-id="Bestv4K 无画面" tvg-name="Bestv4K 无画面" tvg-logo="https://epg.112114.xyz/logo/BESTV4K无画面.png" group-title="其他",Bestv4K 无画面
 http://124.230.56.124:55555/rtp/239.76.247.2:1234
 
+
+#EXTINF:-1 group-title="五星体育",五星体育
+http://58.37.189.39:8088/rtp/239.45.3.210:5140?Cf=cfss.cc
+#EXTINF:-1 group-title="五星体育",五星体育
+http://101.224.36.25:9901/tsfile/live/0107_11.m3u8?key=txiptv
+
 #EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/内蒙古卫视" tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" group-title="②卫视",内蒙古卫视
 https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880
 #EXTINF:-1,蒙语卫视
