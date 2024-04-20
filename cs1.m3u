@@ -11,5 +11,5 @@ http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel8/play
 http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzh.m3u8?zjiangsd
 #EXTINF:-1,泗阳资讯频道
 http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzx.m3u8?zjiangsd
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://175.164.166.114:8999/tb1/CCTV/CCTV1.png" group-title="央视",CCTV-1综合
-http://175.164.166.114:8999/rtp/232.0.0.27:1234
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV-1
+http://106.116.2.87:8890/rtp/239.254.200.45:8008
