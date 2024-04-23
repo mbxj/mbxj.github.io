@@ -30,7 +30,7 @@
       "quickSearch": 0,
       "filterable": 0
     },
-    {"key":"贱贱","name":"🍊抹茶妹妹超清","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js","ext":"https://agit.ai/fantaiying/fty/raw/branch/master/ext/jp.js"}
+    {"key":"贱贱","name":"🍊抹茶妹妹超清","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"http://152.32.170.60/fantaiying/fty/raw/branch/master/ext/drpy2.min.js","ext":"https://agit.ai/fantaiying/fty/raw/branch/master/ext/jp.js"}
     
   ],
   "parses":[
