@@ -1,315 +1,481 @@
 #EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
-#EXTINF:-1,凤凰香港
-http://113.64.145.91:8081/hls/38/index.m3u8
-#EXTINF:-1,凤凰中文
-http://210.210.155.37/uq2663/h/h157/index2.m3u8
-#EXTINF:-1,香港面包台
-https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-#EXTINF:-1,耀才财经台
-https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
-#EXTINF:-1,环球电视台
-http://zb.xzxwhcb.com:9999/hls/world.m3u8
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/亚洲新闻台" tvg-id="亚洲新闻台" tvg-name="亚洲新闻台" group-title="港澳闽备",亚洲新闻台
-https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-#EXTINF:-1,CGNTV台
-http://live.cgtn.com/500/prog_index.m3u8
-#EXTINF:-1,CGNTV台
-http://live.cgtn.com/1000/prog_index.m3u8
-#EXTINF:-1,民视闽南台
-rtmp://f13h.mine.nu/sat/tv051
-#EXTINF:-1,台视闽南台
-rtmp://f13h.mine.nu/sat/tv071
-#EXTINF:-1,华视闽南台
-rtmp://f13h.mine.nu/sat/tv111
-#EXTINF:-1,东森超视台
-rtmp://f13h.mine.nu/sat/tv331
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/纬来育乐台" tvg-id="纬来育乐台" tvg-name="纬来育乐台" group-title="港澳闽备",纬来育乐台
-rtmp://f13h.mine.nu/sat/tv701
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/纬来体育台" tvg-id="纬来体育台" tvg-name="纬来体育台" group-title="港澳闽备",纬来体育台
-rtmp://f13h.mine.nu/sat/tv721
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/有线新闻台" tvg-id="有线新闻台" tvg-name="有线新闻台" group-title="省港澳闽",有线新闻台
-http://119.23.61.191:8088/HK/hoy78/hls.m3u8
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/无线新闻台" tvg-id="无线新闻台" tvg-name="无线新闻台" group-title="省港澳闽",无线新闻台
-http://66.165.240.154:8080/live/TVBwxxwt/hls.m3u8
-#EXTINF:-1,Now新闻台
-http://58.87.99.251:8090/HK/nowxingying/hls.m3u8
-#EXTINF:-1,有线综合台
-http://119.23.61.191:8088/HK/hoy77/hls.m3u8
-#EXTINF:-1,Now英超台
-http://220.246.126.166:9981/stream/channel/dc8db4742fcbe0da67fa417159b6fadd
-#EXTINF:-1,Now体育台
-http://58.87.99.251:8090/HK1/nowbaogu/hls.m3u8
-#EXTINF:-1,天映频道台
-https://epg.pw/stream/6ce6153c50095866e921e3584843aa8086ed10a8911a1793d641b281541db5c6.ctv
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/台视新闻台" tvg-id="台视新闻台" tvg-name="台视新闻台" group-title="省港澳闽",台视新闻台
-http://154.yfvodcdn.com:8080/live/tyxltsxw3/hls.m3u8
-#EXTINF:-1,凤凰资讯
-http://ax.micaesoft.com/YMitv/YMITV_CN_ifengNEW.m3u8
-#EXTINF:-1,凤凰资讯
-http://112.19.171.156:9999/udp/239.93.0.118:2191
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/翡翠台" tvg-id="翡翠台" tvg-name="翡翠台" group-title="港澳频道",TVB翡翠台
-http://58.87.99.251:8090/GN/gdfc2/hls.m3u8
-#EXTINF:-1,TVB星河台
-http://113.64.145.195:8081/hls/135/index.m3u8
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/有线新闻台" tvg-id="有线新闻台" tvg-name="有线新闻台" group-title="港澳频道",有线新闻台
-http://cm61-10-2-143.hkcable.com.hk/live_freedirect/hd110_h.live/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/有线新闻台" tvg-id="有线新闻台" tvg-name="有线新闻台" group-title="港澳频道",有线新闻台
-http://61.10.2.141/live_freedirect/freehd209_h.live/playlist.m3u8
-#EXTINF:-1,香港34台全网
-https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPlaylist.m3u8
-#EXTINF:-1,港台RTHK33HD
-https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8
-#EXTINF:-1,凤凰资讯
-http://61.221.215.25:8800/hls/47/index.m3u8
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/香港卫视" tvg-id="香港卫视" tvg-name="香港卫视" group-title="港澳频道",香港卫视
-http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-#EXTINF:-1,天映频道
-http://183.237.246.14:9931/tsfile/live/1043_1.m3u8
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/中视" tvg-id="中视" tvg-name="中视" group-title="台湾频道",中视
-rtmp://f13h.mine.nu/sat/tv091
-#EXTINF:-1,大爱一台
-https://pulltv1.wanfudaluye.com/live/tv1.m3u8
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/大爱二台" tvg-id="大爱二台" tvg-name="大爱二台" group-title="台湾频道",大爱二台
-https://pulltv2.wanfudaluye.com/live/tv2.m3u8
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/大爱二台" tvg-id="大爱二台" tvg-name="大爱二台" group-title="台湾频道",大爱二台
-https://pulltv1.wanfudaluye.com/live/tv2.m3u8
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/明珠台" tvg-id="明珠台" tvg-name="明珠台" group-title="港澳频道",TVB明珠台
-http://xjayrf.eatuo.com:9901/tsfile/live/1005_1.m3u8
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/翡翠台" tvg-id="翡翠台" tvg-name="翡翠台" group-title="🇨🇳 港台",VB翡翠台
+p3p://108.181.32.169:32155/6533f6560002787f2d01338b57197695
+#EXTINF:-1,TVB翡翠台(b)
+p3p://108.181.32.169:32155/6533f5c20003762b2cfef1ac322c6404
+#EXTINF:-1,VB翡翠台(d)
+p3p://108.181.32.169:32155/655daa1c00083272cfe6541e61d40be0
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/翡翠台" tvg-id="翡翠台" tvg-name="翡翠台" group-title="🇨🇳 港台",TVB翡翠台MY
+p3p://108.181.32.169:32155/6533f6f8000f2ebd2d03af9d53e46544
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/明珠台" tvg-id="明珠台" tvg-name="明珠台" group-title="🇨🇳 港台",TVB明珠台Pearl
+p3p://108.181.32.169:32155/6533f84d00047c732d08e0ea71ab4e92
+#EXTINF:-1,TVB星河粤语
+p3p://108.181.32.169:32155/641021c50003c5af985dddf037af353c
+#EXTINF:-1,TVB星河国语
+p3p://108.181.32.169:32155/641021e900026b0f985e6a374d7d56bb
+#EXTINF:-1,TVB功夫台
+p3p://108.181.32.169:32155/6411291b0004b01b9c62861646d00929
 #EXTINF:-1,TVB娱乐新闻台
-http://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
-#EXTINF:-1,台湾民视
-http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8
-#EXTINF:-1,三立新闻2
-http://66.165.240.154:8080/live/slxw02/hls.m3u8
-#EXTINF:-1,东森财经2
-http://66.165.240.154:8080/live/gatdscj02/hls.m3u8
-#EXTINF:-1,三立戲劇台
-http://61.221.215.25:8800/hls/41/index.m3u8
-#EXTINF:-1,无线新闻备
-http://119.23.61.191:8088/HK/wxxw/hls.m3u8
-#EXTINF:-1,Now新闻备
-http://60.30.198.43:5080/HK/nowxw/hls.m3u8
-#EXTINF:-1,无线翡翠台
-http://ha.hahomes.net:9982/stream/channel/5954ad9fd4240f4a1c1b64ca44963160?profile=pass
-#EXTINF:-1,无线翡翠备
-http://60.30.198.43:5080/HK/tvb/hls.m3u8
-#EXTINF:-1,无线Plus台
-http://ncdsrti.7766.org:7550/hls/chunklistxqsltvbj5.m3u8
-#EXTINF:-1,VIUTV台粤
-http://ha.hahomes.net:9982/stream/channel/e118bf44425cedbb0fd442f2fcb07721?profile=pass
-#EXTINF:-1,VIUTV台英
-http://ha.hahomes.net:9982/stream/channel/a0644e0e693f7c08b60efd87bf3e1b31?profile=pass
-#EXTINF:-1,Now星影台
-http://60.30.198.43:5080/HK/xy/hls.m3u8
-#EXTINF:-1,Now英超台
-http://60.30.198.43:5080/HK/nowty2/hls.m3u8
-#EXTINF:-1,Now体育备
-http://60.30.198.43:5080/HK/nowty/hls.m3u8
-#EXTINF:-1,无线功夫台
-https://v2h.jdshipin.com/asia_action/asia_action.stream/chunklist.m3u8
-#EXTINF:-1,天映经典备
-http://171.108.239.74:8181/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1,RTHK33
-https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream04/streamPlaylist.m3u8
-#EXTINF:-1,RTHK34
-https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream04/streamPlaylist.m3u8
-#EXTINF:-1,凤凰资讯台
-http://www.lebaobei.top:6868/udp/239.255.30.70:8231
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/纬来日本台" tvg-id="纬来日本台" tvg-name="纬来日本台" group-title="省港澳闽",纬来日本台
-rtmp://f13h.mine.nu/sat/tv771
-#EXTINF:-1,经典功夫台
-http://43.138.170.29:35455/yy/1355002394
-#EXTINF:-1,经典动画
-http://live.dxms.top/dw/jddh.php
-#EXTINF:-1,经典怀旧
-http://live.dxms.top/dw/jdhj.php
-#EXTINF:-1,经典TVB功夫
-https://ali.hlspull.yximgs.com/live/12344.flv
-#EXTINF:-1,星光视界
-http://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
-#EXTINF:-1,秋月剪水
-http://huanqiuzhibo.cn/manifest/douyu.php?id=9588891
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/翡翠台" tvg-id="翡翠台" tvg-name="翡翠台" group-title="港澳闽备",翡翠台
-http://58.87.99.251:8090/HK/tvb/hls.m3u8
-#EXTINF:-1,香港凤凰频道
-http://183.204.13.13/cee7354084e908e7d71a99f88ecd0c61.v.smtcdns.net/qctv.fengshows.cn/live/0701phk72.m3u8
-#EXTINF:-1,星空卫视频道
-http://vl15191373.imwork.net:8880/udp/239.93.1.10:2193
-#EXTINF:-1,香港電台(34)
-https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
-#EXTINF:-1,香港電台(34)
-https://livedoc.cgtn.com/1000d/prog_index.m3u8
-#EXTINF:-1,耀才财经频道
-http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
-#EXTINF:-1,4k👉修复全网
-http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
-#EXTINF:-1,4K南国都市台
-http://php.jdshipin.com:8880/gztv.php?id=shenghuo
-#EXTINF:-1,-8K北京科教台
-http://111.31.106.140/downflv.brtvcloud.com/8klive/8kliveok.m3u8
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/CCTV超清" tvg-id="CCTV超清" tvg-name="CCTV超清" group-title="港澳闽备",-8KCCTV超清
-https://tv.cry33.com/ys4k.php?id=8k25
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/CCTV超清" tvg-id="CCTV超清" tvg-name="CCTV超清" group-title="港澳闽备",-8KCCTV超清
-https://tv.cry33.com/ys4k.php?id=8k
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/CCTV16台" tvg-id="CCTV16台" tvg-name="CCTV16台" group-title="港澳闽备",-4kCCTV16台
-https://tv.cry33.com/ys4k.php?id=16-4k
-#EXTINF:-1,4K斗鱼影院台
-http://159.75.85.63:35455/douyu/9249162
-#EXTINF:-1,4K斗鱼影院台
-http://43.138.170.29:35455/douyu/9249162
-#EXTINF:-1,4K爱上高清台
-http://www.8700956.top:18888/rtp/239.81.0.123:4056?Cf=cfss.cc
-#EXTINF:-1,4K爱上高清台
-http://www.furymax.top:85/rtp/239.69.1.141:10482?Cf=cfss.cc
-#EXTINF:-1,8K北京纪实台
-http://49.7.69.235/downflv.brtvcloud.com/8klive/8kliveok.m3u8
-#EXTINF:-1,韩国国防
-http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
-#EXTINF:-1,韩国新闻
-http://amdlive.ctnd.com.edgesuite.net:80/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
-#EXTINF:-1,日语新闻
-https://n24-cdn-live.ntv.co.jp/ch01/index_high.m3u8
-#EXTINF:-1,纬来体育
-http://hls.szsummer.cn/live/446035/playlist.m3u8?k=32f9ec7c13e4b390289143a8e1b2a898&t=1840341130
-#EXTINF:-1,纬来体育
-https://cloud.yumixiu768.com/tmp/123.m3u8
-#EXTINF:-1,番薯台
-http://61.216.67.119:1935/TWHG/E1/chunklist_w70581102.m3u8
-#EXTINF:-1,港台电视33
-https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream04/streamPlaylist.m3u8?$720P
-#EXTINF:-1,港台电视34
-https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream04/streamPlaylist.m3u8?$720P
-#EXTINF:-1,RTHK34*频道
-https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream05/streamPlaylist.m3u8
-#EXTINF:-1,港台电视35
-https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream04/streamPlaylist.m3u8?$720P
-#EXTINF:-1,番薯音乐
-http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
-#EXTINF:-1,港台电视34
-https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream05/streamPlaylist.m3u8?$1080P
-#EXTINF:-1,港台电视35
-https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream05/streamPlaylist.m3u8?$1080P
-#EXTINF:-1,澳门卫视
-https://live.mastvnet.com/lsdream/MSTV/1500/live.m3u8
-#EXTINF:-1,澳亚卫视
-https://live.mastvnet.com/lsdream/lY44pmm/2000/live.m3u8
-#EXTINF:-1,澳门莲花
-http://php.jdshipin.com:8880/amlh.php
-#EXTINF:-1,GOOD卡通
-https://dqhxk7sbp7xog.cloudfront.net/osmflivech45.m3u8
-#EXTINF:-1,天微科技
-https://vd2.bdstatic.com/mda-maqfk730tsig88wr/v2-hknm/1080p/mda-maqfk730tsig88wr.mp4
-#EXTINF:-1,香港文旅
-http://ali-play.lezhibo.com/lezhibo/6ad788f1bbab4c689ecdc0d64a1e1601.m3u8
-#EXTINF:-1,香港文旅
-http://ali-play.lezhibo.com:80/lezhibo/6ad788f1bbab4c689ecdc0d64a1e1601.m3u8
-#EXTINF:-1,香港文旅
-https://ali-play.lezhibo.com/lezhibo/6ad788f1bbab4c689ecdc0d64a1e1601.m3u8
-#EXTINF:-1,马尔康综合[geo-blocked]
-https://epg.pw/stream/730624d47482fed3331196e40e506833a98c72142af419b50c098c0fdedb850b.m3u8
-#EXTINF:-1,Beautiful Life TV
-https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
-#EXTINF:-1,👉添加售后唯一微信👈
-https://cloud.lxweb.cn/f/W6OOfB/WXSP.mp4
-#EXTINF:-1,重温经典
-http://125.210.150.58:9090/live/hzgq-cwjdgq-h264.m3u8
-#EXTINF:-1,重温经典
-http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
-#EXTINF:-1,凤凰香港
-https://epg.pw/stream/e04b14233c7014451fd340e1c5d0cc6a7a47937fa22d135f61caa76777602bad.m3u8
+p3p://108.181.32.169:32155/64102219000c6f74985f28485a5a5799
+#EXTINF:-1,TVB J2
+p3p://108.181.32.169:32155/641021800006a527985cd1244315142d
+#EXTINF:-1,TVB经典台
+p3p://108.181.32.169:32155/6410219e0000704b985d44bd2a501d47
+#EXTINF:-1,TVB星影台(不稳定)
+p3p://108.181.32.169:32155/641af926000cc2b9c2b6f9f75c8d2b97
+#EXTINF:-1,電影一台
+p3p://108.181.32.169:32155/6410224e00097a01985ff68e53d22e70
+#EXTINF:-1,VIU TV
+p3p://108.181.32.169:32155/641021400008eb86985bd7b90b510a5b
+#EXTINF:-1,VIU six
+p3p://108.181.32.169:32155/6410215d000ad4ca985c497e192b3552
+#EXTINF:-1,RHK 31
+p3p://108.181.32.169:32155/64101f330006ab429853d45f7940453b
+#EXTINF:-1,RHK 32
+p3p://108.181.32.169:32155/641020b00001b8599859a360613572d7
+#EXTINF:-1,HOY咨询台有线新闻台
+p3p://108.181.32.169:32155/6533f8d200067abd2d0ae8f534c10d88
+#EXTINF:-1,HOY咨询台有线新闻台(b)
+p3p://108.181.32.169:32155/6427e50e0008e093f53042b347a45e2f
+#EXTINF:-1,有線體育台
+p3p://108.181.32.169:32155/64100a6b000527e19802a6b80be147fa
+#EXTINF:-1,有線耀才财经
+p3p://108.181.32.169:32155/64102268000ecb1f98605d7b0a602bf4
+#EXTINF:-1,mytv super
+p3p://108.181.32.169:32155/6533f044000117a52ce97ce95ac54bb3
+#EXTINF:-1,有線18台跑马
+p3p://108.181.32.169:32155/6533f34d0002237a2cf5584a11195950
+#EXTINF:-1,CH288跑马
+p3p://108.181.32.169:32155/6533f484000c2b3e2cfa19b55cab3b9b
+#EXTINF:-1,CH289跑马
+p3p://108.181.32.169:32155/6533f5040003559d2cfc0b7268db0ab8
+#EXTINF:-1,無線新聞台
+p3p://108.181.32.169:32155/6533fd5600043bdb2d1c8c0729c35d0c
+#EXTINF:-1,無線新聞台(b)
+p3p://108.181.32.169:32155/6533f9fb00006d352d0f6f9235041f8d
+#EXTINF:-1,無線財經台
+p3p://108.181.32.169:32155/64100aec000c7bc59804a081537730cb
+#EXTINF:-1,NOW财经台
+p3p://108.181.32.169:32155/641020d00004bf91985a212731011c3c
+#EXTINF:-1,NOW直播台
+p3p://108.181.32.169:32155/6417e77b0007feb1b6b9f4ca25bc6e04
+#EXTINF:-1,NOW新闻台
+p3p://108.181.32.169:32155/6410254c0006df63986ba60f292a7500
+#EXTINF:-1,Now体育英超
+p3p://108.181.32.169:32155/64b8f92b000089e02be334b114c32320
+#EXTINF:-1,Now plus
+p3p://108.181.32.169:32155/64b8f962000df4a32be40ef90d9f4afd
+#EXTINF:-1,NOW体育台
+p3p://108.181.32.169:32155/6410211d00048968985b4de16d6e5b6a
+#EXTINF:-1,EPL nsports 英超4keng
+p3p://108.181.32.169:32155/64d74cf7000556f0223ed6366e5f689a
+#EXTINF:-1,EPL nsports 英超1eng
+p3p://108.181.32.169:32155/64d74cb1000cc276223dc6ac654a2299
+#EXTINF:-1,EPL nsports 英超4k1粤语
+p3p://108.181.32.169:32155/64d74ca40007202e223d927267473868
+#EXTINF:-1,EPL nsports 英超 粤语
+p3p://108.181.32.169:32155/64d74c1600083555223b68096e79387e
+#EXTINF:-1,Now体育1 Sports 1
+p3p://108.181.32.169:32155/643361f20007b9a9220fabfc3001244e
+#EXTINF:-1,Now体育2 Sports 2
+p3p://108.181.32.169:32155/643362090006b031221005903b883d07
+#EXTINF:-1,Now体育3 Sports 3
+p3p://108.181.32.169:32155/6433621d000d9c3522105573223958e1
+#EXTINF:-1,Now体育4 Sports 4
+p3p://108.181.32.169:32155/6437999f00025f983289265f38ef3722
+#EXTINF:-1,Now体育5 Sports 5
+p3p://108.181.32.169:32155/643799aa000e7bac3289547135e05a80
+#EXTINF:-1,Now体育6 Sports 6
+p3p://108.181.32.169:32155/643799bb00044f193289943e2e5f6ac1
+#EXTINF:-1,Now体育7 Sports 7
+p3p://108.181.32.169:32155/643799ca000a29a43289d0542d57262c
 #EXTINF:-1,凤凰中文
-https://epg.pw/stream/91dffd2dca60b65821a94747f2f3020dfc9642bb89f86ed7fa6d8b0b7487c5d2.m3u8
+p3p://108.181.32.169:32155/6410229e000655dd98612e41401e3e7d
 #EXTINF:-1,凤凰资讯
-https://epg.pw/stream/5fb13a1ac8acfc0fbc7121568b65c78e0383919949c35c2a7f278a1ddd081e2b.m3u8
-#EXTINF:-1,凤凰资讯
-http://tvbox.mohuajz.eu.org/tv/yximgs.php?id=1
-#EXTINF:-1,凤凰香港
-http://tvbox.mohuajz.eu.org/tv/yximgs.php?id=2
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/翡翠台" tvg-id="翡翠台" tvg-name="翡翠台" group-title="🦄香港频道「测试中」",TVB翡翠台
-http://tvbox.mohuajz.eu.org/tv/yximgs.php?id=4
-#EXTINF:-1,TVB财经新闻
-http://tvbox.mohuajz.eu.org/tv/yximgs.php?id=7
-#EXTINF:-1,VIUTV
-http://tvbox.mohuajz.eu.org/tv/yximgs.php?id=8
-#EXTINF:-1,HOY77
-http://tvbox.mohuajz.eu.org/tv/yximgs.php?id=12
-#EXTINF:-1,HOY78
-http://tvbox.mohuajz.eu.org/tv/yximgs.php?id=13
-#EXTINF:-1,NOW新闻
-http://tvbox.mohuajz.eu.org/tv/yximgs.php?id=15
-#EXTINF:-1,NOW222
-http://tvbox.mohuajz.eu.org/tv/yximgs.php?id=16
-#EXTINF:-1,天映频道
-http://tvbox.mohuajz.eu.org/tv/yximgs.php?id=18
-#EXTINF:-1,天映频道
-http://tvbox.mohuajz.eu.org/tv/yximgs.php?id=21
-#EXTINF:-1,TV星河
-http://tvbox.mohuajz.eu.org/tv/yximgs.php?id=22
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/翡翠台" tvg-id="翡翠台" tvg-name="翡翠台" group-title="🦄香港频道「测试中」",TVB翡翠台
-http://xjayrf.eatuo.com:9901/tsfile/live/1004_1.m3u8?key=txiptv
-#EXTINF:-1,无线新闻
-http://137.175.30.127:9080/hls/inews.m3u8
-#EXTINF:-1,（此处以下频道需要魔法）
-https://cloud.lxweb.cn/f/08QDU0/3.MOV
-#EXTINF:-1,Now SPORTS
-http://119.23.61.191:8088/HK/nowbg/hls.m3u8
-#EXTINF:-1,Astro AEC
-http://gmlive.ddns.net:5000/kun5g/kun5g2024/53
-#EXTINF:-1,耀才财经台HD
-https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
-#EXTINF:-1,香港佛陀
-https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
-#EXTINF:-1,中天新闻13HD
-http://66.165.240.154:8080/live/ztylt13/hls.m3u8
-#EXTINF:-1,TVBS亚洲
-http://66.165.240.154:8080/live/tytvbsyz1/hls.m3u8
-#EXTINF:-1,华语电视2
-http://66.165.240.154:8080/live/tytvbs11/hls.m3u8
-#EXTINF:-1,美国电影频道
-https://mytime-tcl.amagi.tv/playlist1080-p.m3u8?blog.ntnas.top
-#EXTINF:-1,台湾Plus
-https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
-#EXTINF:-1,HBO-2
-http://66.165.240.154:8080/live/2mghbo02/hls.m3u8
-#EXTINF:-1,八大戲劇台HD
-http://61.221.215.25:8800/hls/39/index.m3u8
-#EXTINF:-1,八大綜合台HD
-http://61.221.215.25:8800/hls/56/index.m3u8
-#EXTINF:-1,八大第1台HD
-http://61.221.215.25:8800/hls/55/index.m3u8
-#EXTINF:-1,AMC電影台
-http://61.221.215.25:8800/hls/43/index.m3u8
-#EXTINF:-1,探索亞洲
-http://61.221.215.25:8800/hls/50/index.m3u8
-#EXTINF:-1,動物星球
-http://61.221.215.25:8800/hls/57/index.m3u8
+p3p://108.181.32.169:32155/641022be000e5cc69861ad4f5a025336
+#EXTINF:-1,凤凰香港台
+p3p://108.181.32.169:32155/641022da0005d3069862188000a64525
+#EXTINF:-1,HBO
+p3p://108.181.32.169:32155/64137f0b0006a17fa58238155813216c
+#EXTINF:-1,HBO家庭
+p3p://108.181.32.169:32155/64137f3c000d4a86a582f93235111bc5
+#EXTINF:-1,HBO强档
+p3p://108.181.32.169:32155/64137f700008f329a583c3344ddf5dfc
+#EXTINF:-1,HBO原创
+p3p://108.181.32.169:32155/64137f970005246ea5845a9326ce6233
+#EXTINF:-1,凤凰资讯test
+p3p://108.181.32.169:32155/641fd7b400080236d5bc536f5d82159c
+#EXTINF:-1,Kix HD
+p3p://108.181.32.169:32155/6413854d000785b1a59aaa2924fa1aa7
+#EXTINF:-1,Discovery Channel
+p3p://108.181.32.169:32155/641383f300048101a59561c464b07293
+#EXTINF:-1,TVB黃金翡翠台维修中
+p3p://108.181.32.169:32155/64206c63000c3a90d801201c5fe2483a
+#EXTINF:-1,HOY TV HD(香港開電視)维修中
+p3p://108.181.32.169:32155/641022340009a273985f91092cb6113d
+#EXTINF:-1,TVB粵語片台维修中
+p3p://108.181.32.169:32155/643361c7000d4bee220f05703b541d41
+#EXTINF:-1,TVB華語劇台维修中
+p3p://108.181.32.169:32155/643361e10003610a220f68773c0b4c78
+#EXTINF:-1,TVB戲曲台维修中
+p3p://108.181.32.169:32155/64336236000b18a12210b67722665e99
+#EXTINF:-1,HKS
+https://ott-iptv.top/shanxi/hks.php
+#EXTINF:-1,iQIYI
+p3p://108.181.32.169:32155/649672870005e0a5a5062d0e1384610b
+#EXTINF:-1,港台电视32
+p2p://generationnexxxt.com:19806/9c0a161f9c59476584fe4d8effc125b6
+#EXTINF:-1,HOY TV
+p2p://generationnexxxt.com:19806/10c18372b612479086c1f259245543ff
+#EXTINF:-1,翡翠台(备)
+p2p://147.135.39.171:9906/658f93d5000d4d27f39e83494fe03749
+#EXTINF:-1,J2
+p2p://generationnexxxt.com:19806/6a623cf5c0bc4c96b8fd45a47af4a872
+#EXTINF:-1,无线新闻台(备)
+p2p://147.135.39.171:9906/658f93d500090264f39e82304f2d4370
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/无线新闻台" tvg-id="无线新闻台" tvg-name="无线新闻台" group-title="🇨🇳 港台",无线新闻台
+p2p://147.135.39.171:9906/659ad8a20009ddcb1fa351025e007328
+#EXTINF:-1,无线财经体育资讯台
+p2p://generationnexxxt.com:19806/8bcc654c89f74ebdb4e82062ef5f998c
+#EXTINF:-1,ViuTVsix
+p2p://generationnexxxt.com:19806/ba99e7a39d9c4e74bacc5de14f58dcf6
+#EXTINF:-1,ViuTV
+p2p://generationnexxxt.com:19806/976916e8baee45a89d5e023224f7ab2b
+#EXTINF:-1,凤凰中文台
+p2p://generationnexxxt.com:19806/64e1ab2a000417167359b3ca0417008f
+#EXTINF:-1,凤凰资讯台
+p2p://generationnexxxt.com:19806/6684e9f6606f49fba9b6de846dbdcb64
+#EXTINF:-1,凤凰香港台
+p2p://generationnexxxt.com:19806/8e396c3ec52f4eee9e5b7868042b1bf2
+#EXTINF:-1,TVB星河(粤)
+p2p://generationnexxxt.com:19806/0c08d9d705a747908c23ba652726d777
+#EXTINF:-1,澳门-MACAU
+p2p://generationnexxxt.com:19806/f9ba8df6f9ed45789e882211735e6414
+#EXTINF:-1,澳门莲花
+p2p://generationnexxxt.com:19806/4c56fbe4e68541a9a759fa269574f98b
+#EXTINF:-1,now新闻台
+p2p://generationnexxxt.com:19806/d7a5bbf5664945cc8589b36b8434d68d
+#EXTINF:-1,HKC 18
+p2p://generationnexxxt.com:19806/140377dc9e0848678d614d451d69af9e
+#EXTINF:-1,戏曲台
+p2p://generationnexxxt.com:19806/4c3b3c3a6c8849c3aa0fc9938859e134
+#EXTINF:-1,TVB娱乐新闻台
+p2p://generationnexxxt.com:19806/46bb3afe133d4cd8ac4b195c7f5f428c
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/翡翠台" tvg-id="翡翠台" tvg-name="翡翠台" group-title="🇨🇳 港台",翡翠台
+p2p://147.135.39.171:9906/659ad8a2000d34621fa351dc7e476ef7
+#EXTINF:-1,千禧经典台
+p2p://generationnexxxt.com:19806/1a5b04c67ece47bb87aa482e2c73138a
+#EXTINF:-1,Thrill
+p2p://generationnexxxt.com:19806/1c3c73215afd42558101c3ee65737202
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/明珠台" tvg-id="明珠台" tvg-name="明珠台" group-title="🇨🇳 港台",明珠台
+p2p://generationnexxxt.com:19806/9993262cc067418a983f0c7ec18adef9
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/香港国际财经台" tvg-id="香港国际财经台" tvg-name="香港国际财经台" group-title="🇨🇳 港台",香港国际财经台
+p2p://generationnexxxt.com:19806/6aa47af091b54d618d1513b1bc23b0b9
+#EXTINF:-1,18台
+p2p://generationnexxxt.com:19806/8bf8f53c61944785b13817297101af20
+#EXTINF:-1,now财经台
+p2p://generationnexxxt.com:19806/88f95058c046453a973e2540701ccb4e
+#EXTINF:-1,美亚电影台(粤语)
+p2p://generationnexxxt.com:19806/ee16565eb5fe46be8d22cbbde1fa9fae
+#EXTINF:-1,Hands Up
+p2p://generationnexxxt.com:19806/7a79a82b627a417f897895b4adf874aa
+#EXTINF:-1,粤语片台
+p2p://generationnexxxt.com:19806/3a44c9c92439443494b8ecff6fdb2336
+#EXTINF:-1,亚洲剧台
+p2p://generationnexxxt.com:19806/ee081a662356489d8b2170952ec91d24
+#EXTINF:-1,功夫台
+p2p://generationnexxxt.com:19806/ef6373344abf4bedae4d49ac953c1742
+#EXTINF:-1,HOY资讯台
+p2p://generationnexxxt.com:19806/eb5a565eb80d40509f0a248018dfd337
+#EXTINF:-1,黄金翡翠台
+p2p://generationnexxxt.com:19806/864714d6ebe847edaa948e9104107f12
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/民视" tvg-id="民视" tvg-name="民视" group-title="🇨🇳 港台",民视
+p2p://generationnexxxt.com:19806/7b046996e7d5417eb4a619194072bbc0
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/台视" tvg-id="台视" tvg-name="台视" group-title="🇨🇳 港台",台视
+p2p://generationnexxxt.com:19806/9868c18e3c0940cd8aa003d9ae54f862
+#EXTINF:-1,大爱
+p2p://generationnexxxt.com:19806/e89ec8c592484d88bc001e8d8a6c9e31
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/中视" tvg-id="中视" tvg-name="中视" group-title="🇨🇳 港台",中视
+p2p://generationnexxxt.com:19806/27826c4ed7234c0d8759bc7fe6786a18
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/霹雳台湾台" tvg-id="霹雳台湾台" tvg-name="霹雳台湾台" group-title="🇨🇳 港台",霹雳台湾台
+p2p://generationnexxxt.com:19806/dcdf778fe9ca4184ad6af3a911765cf0
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/华视" tvg-id="华视" tvg-name="华视" group-title="🇨🇳 港台",华视
+p2p://generationnexxxt.com:19806/761bc3c0662247d18b0db4da8070b7f4
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/公视" tvg-id="公视" tvg-name="公视" group-title="🇨🇳 港台",公视
+p2p://generationnexxxt.com:19806/5bc9388122b840f1abd2ff73c85049a6
+#EXTINF:-1,好消息
+p2p://generationnexxxt.com:19806/febf2282369d409d92d68514b72fc433
+#EXTINF:-1,原住民电视台
+p2p://generationnexxxt.com:19806/cb5b7549e3604100a605ca17c82808f5
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/客家电视台" tvg-id="客家电视台" tvg-name="客家电视台" group-title="🇨🇳 港台",客家电视台
+p2p://generationnexxxt.com:19806/eafabb6e7c30439b8ecd35ad40a46a96
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/台视综合台" tvg-id="台视综合台" tvg-name="台视综合台" group-title="🇨🇳 港台",台视综合台
+p2p://generationnexxxt.com:19806/6593a4d5000dedcb98fef0154abd184d
+#EXTINF:-1,探索频道
+p2p://generationnexxxt.com:19806/9f2e92df32b34a569ad7e6818f4732fb
+#EXTINF:-1,TLC旅游生活
+p2p://generationnexxxt.com:19806/621ca70412034f5eb919c1ec03679804
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/动物星球" tvg-id="动物星球" tvg-name="动物星球" group-title="🇨🇳 港台",动物星球
+p2p://generationnexxxt.com:19806/5b41e724ea8e4e7eb92e3dac95589165
+#EXTINF:-1,CN卡通频道
+p2p://generationnexxxt.com:19806/f4dd909eedc64e6b9736e248aedf6d61
+#EXTINF:-1,MOMO亲子台
+p2p://generationnexxxt.com:19806/2f2d9ad70ce7410aa99f2b9fa1753dd4
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/纬来综合台" tvg-id="纬来综合台" tvg-name="纬来综合台" group-title="🇨🇳 港台",纬来综合台
+p2p://generationnexxxt.com:19806/d40310ae8bba42569d3d90b4cf7d9928
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/八大第一台" tvg-id="八大第一台" tvg-name="八大第一台" group-title="🇨🇳 港台",八大第一台
+p2p://generationnexxxt.com:19806/270abff66f5e496fb9c100a0dbca3fe6
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/八大综合台" tvg-id="八大综合台" tvg-name="八大综合台" group-title="🇨🇳 港台",八大综合台
+p2p://generationnexxxt.com:19806/6c18a737c1394e59ae5072935d630f40
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/三立台湾台" tvg-id="三立台湾台" tvg-name="三立台湾台" group-title="🇨🇳 港台",三立台湾台
+p2p://generationnexxxt.com:19806/ff12e8f29f9b4f61a9b766709aa498f6
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/三立都会台" tvg-id="三立都会台" tvg-name="三立都会台" group-title="🇨🇳 港台",三立都会台
+p2p://generationnexxxt.com:19806/7a36f98eee8e48a48ea64a1359083c8a
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/东森综合台" tvg-id="东森综合台" tvg-name="东森综合台" group-title="🇨🇳 港台",东森综合台
+p2p://generationnexxxt.com:19806/a05a4d8b51f54013925315261a2c6aa9
+#EXTINF:-1,超视
+p2p://generationnexxxt.com:19806/5121f16c4b634c1683e9444aa68494b6
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/中天综合台" tvg-id="中天综合台" tvg-name="中天综合台" group-title="🇨🇳 港台",中天综合台
+p2p://generationnexxxt.com:19806/d6433dcd1a2a4aacb1c63a81ae8f11e6
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/中天娱乐台" tvg-id="中天娱乐台" tvg-name="中天娱乐台" group-title="🇨🇳 港台",中天娱乐台
+p2p://generationnexxxt.com:19806/6932151dd5a74b759a053f78a719fbf3
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/东森戏剧台" tvg-id="东森戏剧台" tvg-name="东森戏剧台" group-title="🇨🇳 港台",东森戏剧台
+p2p://generationnexxxt.com:19806/4fae332a68a04f3fa77a158ac1fa4bce
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/八大戏剧台" tvg-id="八大戏剧台" tvg-name="八大戏剧台" group-title="🇨🇳 港台",八大戏剧台
+p2p://generationnexxxt.com:19806/4eec82bd1e634ceab82b90e395116c83
+#EXTINF:-1,TVBS欢乐台
+p2p://generationnexxxt.com:19806/569aec3edbbc4267bd6f829b3d495d5a
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/纬来戏剧台" tvg-id="纬来戏剧台" tvg-name="纬来戏剧台" group-title="🇨🇳 港台",纬来戏剧台
+p2p://generationnexxxt.com:19806/69036778f8fc40729301e9e88aeee556
+#EXTINF:-1,高点综合台
+p2p://generationnexxxt.com:19806/462775e2153243fc92adec0793c638d0
+#EXTINF:-1,BBC World News
+p2p://generationnexxxt.com:19806/ecc7214268ee448ab42b65d9f2e2663a
+#EXTINF:-1,CNBC
+p2p://generationnexxxt.com:19806/b642a4ce45734a7190f0acbd8cd462dd
+#EXTINF:-1,Bloomberg TV
+p2p://generationnexxxt.com:19806/885bb543b9cb4bbeb5bcfe518fb90780
+#EXTINF:-1,HITS
+p2p://generationnexxxt.com:19806/a65416c2039f4644aeef10da853fb928
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/民视" tvg-id="民视" tvg-name="民视" group-title="🇨🇳 港台",民视
+p3p://108.181.32.169:32155/64251dd200003544ea55fe1c5eb00e42
+#EXTINF:-1,民视(b)
+p3p://108.181.32.169:32155/6442f24f00097e845edb5e492842265c
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/民视新闻台" tvg-id="民视新闻台" tvg-name="民视新闻台" group-title="🇨🇳 港台",民视新闻台
+p3p://108.181.32.169:32155/64c859e10007934267f487ac0fa618e0
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/公视" tvg-id="公视" tvg-name="公视" group-title="🇨🇳 港台",公视
+p3p://108.181.32.169:32155/64251df1000b5a9cea567a0e255d4664
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/台视" tvg-id="台视" tvg-name="台视" group-title="🇨🇳 港台",台视
+p3p://108.181.32.169:32155/64251e0800060844ea56d28a6fad038f
+#EXTINF:-1,台視财经台
+p3p://108.181.32.169:32155/6448a761000bec1a75267316701e7a90
+#EXTINF:-1,中視新聞
+p3p://108.181.32.169:32155/642d016e000643ab0926e0907da252ca
+#EXTINF:-1,中天新闻
+p3p://108.181.32.169:32155/64252571000be01dea73c63b5616781e
+#EXTINF:-1,壹電視新聞台
+p3p://108.181.32.169:32155/642521bd0005dfe9ea654d921969472d
+#EXTINF:-1,东森新闻
+p3p://108.181.32.169:32155/64251f9700046520ea5ce8b85b6c11da
+#EXTINF:-1,东森财经
+p3p://108.181.32.169:32155/64251ff20001f010ea5e4b9002e57212
+#EXTINF:-1,非凡新聞台
+p3p://108.181.32.169:32155/64258e8600060f7eec0e3ebd6c49020e
+#EXTINF:-1,寰宇新聞台
+p3p://108.181.32.169:32155/64295eb60008744efaf37ae07d17520b
+#EXTINF:-1,TVBS 新聞台
+p3p://108.181.32.169:32155/64252188000673fcea647eb0397d464d
+#EXTINF:-1,三立新闻
+p3p://108.181.32.169:32155/64251e23000bcd04ea573d7c0f0a002e
+#EXTINF:-1,年代新聞
+p3p://108.181.32.169:32155/645b2569000acf2fbd624de55e212fb2
+#EXTINF:-1,三立戏剧三立戲劇
+p3p://108.181.32.169:32155/64251e39000ed5bbea579433569b6381
+#EXTINF:-1,三立綜合台
+p3p://108.181.32.169:32155/64251e49000e34e7ea57d28a25014df2
+#EXTINF:-1,三立台湾
+p3p://108.181.32.169:32155/64251e5e0003388bea5821c268061bfb
+#EXTINF:-1,三立都会
+p3p://108.181.32.169:32155/64251e7300064780ea587492773a63cc
+#EXTINF:-1,纬来电影
+p3p://108.181.32.169:32155/64251eae0001bef7ea5959e100ae671e
 #EXTINF:-1,纬来体育
-https://hls.szsummer.cn/live/446035/playlist.m3u8?k=32f9ec7c13e4b390289143a8e1b2a898&t=1840341130
-#EXTINF:-1,纬来体育
-http://cloud.yumixiu768.com/tmp/123.m3u8
+p3p://108.181.32.169:32155/64251ee9000a4e00ea5a428b26ea4156
+#EXTINF:-1,纬来日本
+p3p://108.181.32.169:32155/64251ef6000315a6ea5a737a6efc404a
 #EXTINF:-1,纬来精彩
-http://61.221.215.25:8800/hls/48/index.m3u8
-#EXTINF:-1,道真新闻综合
-http://live.dzrmtzx.org.cn:90/live/dspd_1M.m3u8
-#EXTINF:-1,松桃新闻
-http://live.strmtzx.cn/stxw/sd/live.m3u8
-#EXTINF:-1,中华小当家
-http://61.221.215.25:8800/hls/40/index.m3u8
-#EXTINF:-1,49号
-http://61.221.215.25:8800/hls/49/index.m3u8
-#EXTINF:-1,RT Documentary
-https://rt-rtd.rttv.com/live/rtdoc/playlist_4500Kb.m3u8
-#EXTINF:-1,蕃薯台
-http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
-#EXTINF:-1,好消息綜合台
-https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8
-#EXTINF:-1,Arirang TV
-https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
-#EXTINF:-1,红牛
-http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
-#EXTINF:-1,FOX Now
-https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
-#EXTINF:-1,靖宇综合
-http://stream8.jlntv.cn/jytv/sd/live.m3u8
-#EXTINF:-1,YCTV
-http://tvpull.dxhmt.cn:9081/tv/11481-1.m3u8
+p3p://108.181.32.169:32155/64251f020003818bea5aa2750fef31c6
+#EXTINF:-1,纬来综合
+p3p://108.181.32.169:32155/64251f0d000c0b8fea5acf9d13b83665
+#EXTINF:-1,東森电影台
+p3p://108.181.32.169:32155/64253899000a078deabe99ff587050b0
+#EXTINF:-1,東森綜合台
+p3p://108.181.32.169:32155/64253f6e0002d287ead9482831323a6d
+#EXTINF:-1,東森戲劇台
+p3p://108.181.32.169:32155/64251f7a000bc46eea5c79536d5e2a0e
+#EXTINF:-1,東森洋片
+p3p://108.181.32.169:32155/64251f8a0008854aea5cb6fe64e47b4e
+#EXTINF:-1,八大娛樂台
+p3p://108.181.32.169:32155/642520730002bc15ea6043b344e032a5
+#EXTINF:-1,八大第一
+p3p://108.181.32.169:32155/6425207f00050f7aea60732c51b94fad
+#EXTINF:-1,八大综合
+p3p://108.181.32.169:32155/642520b0000c3261ea61346800d61673
+#EXTINF:-1,八大戏剧
+p3p://108.181.32.169:32155/642520c1000929efea61760938521b57
+#EXTINF:-1,八大精彩台
+p3p://108.181.32.169:32155/65435f63000ba94069331ccd6399041b
+#EXTINF:-1,華視綜合
+p3p://108.181.32.169:32155/642520cd000995d4ea61a5050eb67a8d
+#EXTINF:-1,民視第一台
+p3p://108.181.32.169:32155/642520e900023cc4ea621083588c7092
+#EXTINF:-1,民视影劇台
+p3p://108.181.32.169:32155/6425257c000bd861ea73f1315c0e6e14
+#EXTINF:-1,民視綜藝台
+p3p://108.181.32.169:32155/642d012300040bf70925bb06321b0b87
+#EXTINF:-1,TVBS 精采台
+p3p://108.181.32.169:32155/642521570001b275ea63be1073931dd1
+#EXTINF:-1,TVBS
+p3p://108.181.32.169:32155/64252174000b39b9ea6431c97b481680
+#EXTINF:-1,TVBS-G欢乐台
+p3p://108.181.32.169:32155/642521950001d9f2ea64b04b059b66dd
+#EXTINF:-1,TVBS-精彩台
+p3p://108.181.32.169:32155/642521a2000c7beaea64e5cc482f669a
+#EXTINF:-1,靖洋戲劇台
+p3p://108.181.32.169:32155/642521b000094942ea651baa457674cb
+#EXTINF:-1,大爱电视
+p3p://108.181.32.169:32155/6425225a0002859cea67b1ff6aaf6db6
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/大爱二台" tvg-id="大爱二台" tvg-name="大爱二台" group-title="🇨🇳 港台",大爱二台
+p3p://108.181.32.169:32155/64252264000022beea67d87308e9122e
+#EXTINF:-1,MOMO親子臺
+p3p://108.181.32.169:32155/6425226f000463e1ea68048207b3285f
+#EXTINF:-1,ELEVEN 体育1
+p3p://108.181.32.169:32155/6425227b000100c6ea6832842d41783a
+#EXTINF:-1,ELEVEN 体育2
+p3p://108.181.32.169:32155/64252292000127feea688c6630d312e7
+#EXTINF:-1,ELTA体育1台
+p3p://108.181.32.169:32155/6425229e00024ab4ea68bb9154ab1928
+#EXTINF:-1,ELTA体育2台
+p3p://108.181.32.169:32155/642522b0000a6c14ea6903f615622aab
+#EXTINF:-1,ELTA体育3台
+p3p://108.181.32.169:32155/642522bd000ad1bbea6936d803e32fc0
+#EXTINF:-1,ELTA体育3台国语
+p3p://108.181.32.169:32155/6433e3220006392724084f1711880c01
+#EXTINF:-1,博斯魅力
+p3p://108.181.32.169:32155/642d395d0004e9950a015dce389f4c91
+#EXTINF:-1,博斯運動一台
+p3p://108.181.32.169:32155/642d000d000525a509217d5a62e868e8
+#EXTINF:-1,博斯網球台
+p3p://108.181.32.169:32155/642d0029000bd7e70921ec71212f5735
+#EXTINF:-1,博斯運動二台
+p3p://108.181.32.169:32155/642d0087000484c5092359c47ee4201a
+#EXTINF:-1,博斯高球台
+p3p://108.181.32.169:32155/642d009f000f1f000923ba3b26b667e4
+#EXTINF:-1,博斯高球二台
+p3p://108.181.32.169:32155/642d00ae000e846a0923f4ac45c06f09
+#EXTINF:-1,博斯無限台
+p3p://108.181.32.169:32155/642d00bf00041ae7092434690ae526c7
+#EXTINF:-1,ELTA綜合
+p3p://108.181.32.169:32155/642522cd000292e6ea69733b04032ded
+#EXTINF:-1,國家地理高畫質野生
+p3p://108.181.32.169:32155/642523f2000e0f35ea6deeb16ff816c9
+#EXTINF:-1,历史频道2
+p3p://108.181.32.169:32155/642521e0000042a6ea65d4db3e9d23f9
+#EXTINF:-1,EYE TV旅遊台
+p3p://108.181.32.169:32155/642524030003a5b2ea6e2e6f6efc45a1
+#EXTINF:-1,探索科学
+p3p://108.181.32.169:32155/6425241100084dfbea6e6650539d779f
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/亚洲旅游台" tvg-id="亚洲旅游台" tvg-name="亚洲旅游台" group-title="🇨🇳 港台",亚洲旅游台
+p3p://108.181.32.169:32155/642520f70001a86dea62470d303d34d3
+#EXTINF:-1,美食星球
+p3p://108.181.32.169:32155/6425252400079076ea72985811e07306
+#EXTINF:-1,CI 罪案偵查頻道crime
+p3p://108.181.32.169:32155/642520d9000d93c9ea61d4ea78792b01
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/动物星球" tvg-id="动物星球" tvg-name="动物星球" group-title="🇨🇳 港台",动物星球animal planet
+p3p://108.181.32.169:32155/6425241f00027d03ea6e9b836b853b0b
+#EXTINF:-1,星衛娱乐台
+p3p://108.181.32.169:32155/6425242d000d55adea6ed4fa37195f98
+#EXTINF:-1,愛爾達影劇台
+p3p://108.181.32.169:32155/6425243c00046a2eea6f0d4964f8022d
+#EXTINF:-1,Smithsonian Channel
+p3p://108.181.32.169:32155/64252459000cfdb2ea6f80c37a14067d
+#EXTINF:-1,金光布袋戲
+p3p://108.181.32.169:32155/6425246600099458ea6fb2ab4398320b
+#EXTINF:-1,CatchPlay電影台
+p3p://108.181.32.169:32155/64252479000b7f1aea6ffd6177e3015c
+#EXTINF:-1,衛視中文 HD Star Chinese
+p3p://108.181.32.169:32155/64252507000eefc4ea7228f32f390502
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/好莱坞电影台" tvg-id="好莱坞电影台" tvg-name="好莱坞电影台" group-title="🇨🇳 港台",好莱坞电影台
+p3p://108.181.32.169:32155/6425244f0001184fea6f56a70aca63d2
+#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/卫视电影台" tvg-id="卫视电影台" tvg-name="卫视电影台" group-title="🇨🇳 港台",卫视电影台scm
+p3p://108.181.32.169:32155/642525150008a4ecea725e071929091e
+#EXTINF:-1,星卫HD电影
+p3p://108.181.32.169:32155/642521030009ef43ea62780c438e2a38
+#EXTINF:-1,美亚电影台
+p3p://108.181.32.169:32155/642525310003ad3cea72ca2155c734c3
+#EXTINF:-1,卫视HD电影
+p3p://108.181.32.169:32155/6425253c0007ee60ea72f6307ae25fdd
+#EXTINF:-1,JET TV
+p3p://108.181.32.169:32155/6425254d000d3abeea7339f47b5d4bf5
+#EXTINF:-1,中天娱乐
+p3p://108.181.32.169:32155/642525670005ee2bea739da573c134b4
+#EXTINF:-1,中天亚洲
+p3p://108.181.32.169:32155/64254f7e000dfed1eb1809855c5735ce
+#EXTINF:-1,中天綜合
+p3p://108.181.32.169:32155/642d0188000d7c49092747f97ffc7c72
+#EXTINF:-1,Thrill
+p3p://108.181.32.169:32155/644a0879000272f67a89b6687af342ae
+#EXTINF:-1,豬哥亮歌廳秀
+p3p://108.181.32.169:32155/642d012f00030a3c0925e9a4065b1986
+#EXTINF:-1,靖天育樂台
+p3p://108.181.32.169:32155/642d013d0001084409261fd04c0c3c04
+#EXTINF:-1,龙翔时代电影
+p3p://108.181.32.169:32155/642d014b0009f96e092658cb4e1b23ff
+#EXTINF:-1,Baby First
+p3p://108.181.32.169:32155/642d015f000070f00926a47a6a2e7d52
+#EXTINF:-1,ET综合台
+p3p://108.181.32.169:32155/642d017d0000a964092719b87e2e3acd
+#EXTINF:-1,好消息
+p3p://108.181.32.169:32155/642d01960008dc0109277d7a4fc40fce
+#EXTINF:-1,好消息2台
+p3p://108.181.32.169:32155/642d07140006a38a093cf11414d83398
+#EXTINF:-1,CNN my
+p3p://108.181.32.169:32155/641380c6000d7e73a588fc4e012b3240
+#EXTINF:-1,CNBC my
+p3p://108.181.32.169:32155/64138101000e328aa589e2f46ee85f3d
+#EXTINF:-1,ABC Australia my
+p3p://108.181.32.169:32155/6413811b0006e5f7a58a46a6057a4674
+#EXTINF:-1,Sky News HD my
+p3p://108.181.32.169:32155/641381340003e883a58aa78a57c53479
+#EXTINF:-1,Bloomberg TV my
+p3p://108.181.32.169:32155/6413814f000a6413a58b12ab52934c96
+#EXTINF:-1,France 24 my
+p3p://108.181.32.169:32155/6413816700069158a58b6f7a03cd341c
+#EXTINF:-1,Euro news my
+p3p://108.181.32.169:32155/6413817b0003393aa58bbcbf158b6409
+#EXTINF:-1,FOX NEWS my
+p3p://108.181.32.169:32155/6413818e000154fca58c067b60210765
+#EXTINF:-1,BBC News HD
+p3p://108.181.32.169:32155/641384e7000133cda5991a1b33cb3ea0
+#EXTINF:-1,DW HD
+p3p://108.181.32.169:32155/641384f6000cbd09a59957a77daa41a1
+#EXTINF:-1,SKY Racing 1
+p3p://108.181.32.169:32155/64312837000aebee195e62ed55557fd9
+#EXTINF:-1,SKY Racing 2
+p3p://108.181.32.169:32155/64312844000ad7b5195e95b069db4ef2
+#EXTINF:-1,Racingcom HD
+p3p://108.181.32.169:32155/64312852000912ad195ecbec6de2555f
+#EXTINF:-1,FOX Sports Racing HD
+p3p://108.181.32.169:32155/64312865000d9bbf195f174e5ec83175
+#EXTINF:-1,Ziggo Sport Racing
+p3p://108.181.32.169:32155/64312871000b6954195f459e7c10663c
+#EXTINF:-1,Dubai Sports 2
+p3p://108.181.32.169:32155/6431287f0003edcc195f7a6369cf47b8
+#EXTINF:-1,Dubai Sports 2b
+p3p://108.181.32.169:32155/64312936000a354e196246d611a14be4
+#EXTINF:-1,Dubai Racing 3
+p3p://108.181.32.169:32155/64312942000933931962757447382f61
+#EXTINF:-1,Racing UK SPORT(UK)
+p3p://108.181.32.169:32155/6431294f000b80ba1962a8d376855937
+#EXTINF:-1,KY SPORTS RACING
+p3p://108.181.32.169:32155/6431295b0006afff1962d67737a347d9
