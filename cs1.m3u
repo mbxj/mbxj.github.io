@@ -13,3 +13,5 @@ http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzh.m3u8?zjiangsd
 http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzx.m3u8?zjiangsd
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV-1 综合[高清]
 http://123.120.11.201:4022/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-id="6004" tvg-name="辽宁生活" tvg-logo="http://175.146.120.207:8888/tb1/qt/LNTV6.png" group-title="辽宁",辽宁生活
+http://119.117.210.58:8081/rtp/232.0.0.150:1234
