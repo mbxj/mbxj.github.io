@@ -1,8 +1,1 @@
-内蒙古少儿频道,https://livestream-bt.nmtv.cn/nmtv/2318general.m3u8?txSecret=ff5a1fd70ea228ee35b0d29895f37c56&txTime=771E8800
-广安新闻综合频道,http://live1.gatv.com.cn:85/live/XWZH.m3u8
-文山公共频道,http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel8/playlist.m3u8
-泗阳综合频道,http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzh.m3u8?zjiangsd
-泗阳资讯频道,http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzx.m3u8?zjiangsd
-CCTV-1,http://123.120.11.201:4022/rtp/239.3.1.129:8008
-辽宁生活,http://119.117.210.58:8081/rtp/232.0.0.150:1234
-内蒙古卫视,http://123.120.11.201:4022/rtp/239.3.1.43:8176
+
