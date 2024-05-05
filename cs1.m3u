@@ -10,6 +10,6 @@ http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzh.m3u8?zjiangsd
 #EXTINF:-1,泗阳资讯频道
 http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzx.m3u8?zjiangsd
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV-1 综合[高清]
-http://111.193.225.80:8888/rtp/239.3.1.129:8008
+http://114.254.87.159:8020/rtp/239.3.1.129:8008
 #EXTINF:-1,tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="央视",CCTV-2 财经[高清]
-http://111.193.225.80:8888/rtp/239.3.1.60:8084
+http://114.254.87.159:8020/rtp/239.3.1.60:8084
