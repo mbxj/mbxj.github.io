@@ -111,6 +111,12 @@ http://211.136.186.202:8001/rtp/239.45.1.116:5140
 http://211.136.186.202:8001/rtp/239.45.1.117:5140
 #EXTINF:-1,tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://epg.112114.xyz/logo/三沙卫视.png" group-title="卫视",三沙卫视
 http://211.136.186.202:8001/rtp/239.45.1.82:5140
+#EXTINF:-1,tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://epg.112114.xyz/logo/CHC家庭影院.png" group-title="其他",CHC家庭影院高清
+http://175.11.71.241:8888/rtp/239.76.252.241:9000
+#EXTINF:-1,tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://epg.112114.xyz/logo/CHC高清电影.png" group-title="其他",CHC高清电影
+http://175.11.71.241:8888/rtp/239.76.252.242:9000
+#EXTINF:-1,tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://epg.112114.xyz/logo/CHC动作电影.png" group-title="其他",CHC动作电影高清
+http://175.11.71.241:8888/rtp/239.76.252.243:9000
 #EXTINF:-1,蒙语卫视
 https://livestream-bt.nmtv.cn/nmtv/2315general.m3u8?txSecret=e2b255285dd119a92c8aa5cdf00f8b84&txTime=771EF880
 #EXTINF:-1,崇明电视台
