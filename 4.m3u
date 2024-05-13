@@ -65,8 +65,6 @@ http://211.136.186.202:8001/rtp/239.45.1.122:5140
 http://211.136.186.202:8001/rtp/239.45.1.123:5140
 #EXTINF:-1,tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://epg.112114.xyz/logo/天津卫视.png" group-title="卫视",天津卫视HD
 http://211.136.186.202:8001/rtp/239.45.1.124:5140
-#EXTINF:-1,tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://epg.112114.xyz/logo/中国教育1台.png" group-title="其他",中国教育-1HD
-http://211.136.186.202:8001/rtp/239.45.1.125:5140
 #EXTINF:-1,tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://epg.112114.xyz/logo/四川卫视.png" group-title="卫视",四川卫视HD
 http://211.136.186.202:8001/rtp/239.45.1.83:5140
 #EXTINF:-1,tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://epg.112114.xyz/logo/重庆卫视.png" group-title="卫视",重庆卫视HD
@@ -91,8 +89,6 @@ http://211.136.186.202:8001/rtp/239.45.0.6:5140
 http://211.136.186.202:8001/rtp/239.45.0.8:5140
 #EXTINF:-1,tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://epg.112114.xyz/logo/甘肃卫视.png" group-title="卫视",甘肃卫视HD
 http://211.136.186.202:8001/rtp/239.45.0.15:5140
-#EXTINF:-1,tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://epg.112114.xyz/logo/欢笑剧场.png" group-title="其他",欢笑剧场4K
-http://211.136.186.202:8001/rtp/239.45.1.4:5140
 #EXTINF:-1,tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://epg.112114.xyz/logo/宁夏卫视.png" group-title="卫视",宁夏卫视
 http://211.136.186.202:8001/rtp/239.45.1.213:5140
 #EXTINF:-1,tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://epg.112114.xyz/logo/山西卫视.png" group-title="卫视",山西卫视
