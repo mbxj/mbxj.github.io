@@ -1,7 +1,6 @@
 
 {
   "spider": "http://mdxgh.tpddns.cn:9999/mdlib/spider.jar",
-  "wallpaper": "https://tool.weetai.cn/api",
   "warningText": "抹茶妹妹为你服务",
   "lives": [
       {
