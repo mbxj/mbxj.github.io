@@ -2136,8 +2136,6 @@ https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
 https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8
 #EXTINF:-1,RTHK34
 https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPlaylist.m3u8
-#EXTINF:-1,BBC News Asia Pacific
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15
 #EXTINF:-1,唯心
 https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
 #EXTINF:-1,1989香港小姐竞选
@@ -2158,14 +2156,10 @@ http://ali.hlspull.yximgs.com/live/asdfg32522.flv
 rtmp://220.130.201.73/sat/tv071
 #EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/台视" tvg-id="台视" tvg-name="台视" group-title="🇨🇳中国湾省",台视
 rtmp://f13h.mine.nu/sat/tv071
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/华视" tvg-id="华视" tvg-name="华视" group-title="🇨🇳中国湾省",华视
-rtmp://f13h.mine.nu/sat/tv111
 #EXTINF:-1,台視新闻
 https://live.wcetv.com/hls/m3u8/ttvnews.m3u8
 #EXTINF:-1,八大戏剧
 http://61.221.215.25:8800/hls/39/index.m3u8
-#EXTINF:-1,三立戏剧
-http://61.221.215.25:8800/hls/41/index.m3u8
 #EXTINF:-1,中华小家
 http://61.221.215.25:8800/hls/40/index.m3u8
 #EXTINF:-1,AMC影台
@@ -2201,15 +2195,11 @@ http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8?blog.ntnas.top
 #EXTINF:-1,大爱1
 https://pulltv1.wanfudaluye.com/live/tv1.m3u8
 #EXTINF:-1,大爱2
-https://epg.pw/stream/2b383d639b6b2eade22f2d085141a38ae48a98f24b8a06f485e23f7211bbf909.m3u8
-#EXTINF:-1,大爱2
 https://pulltv1.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1,大愛2
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1,澳门賽馬
 https://live.mastvnet.com/lsdream/zT65oep/1500/live.m3u8
-#EXTINF:-1,俄罗斯频
-https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
 #EXTINF:-1,韩国国防
 http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
 #EXTINF:-1,韩国新闻
@@ -2282,10 +2272,6 @@ https://live.mastvnet.com/lsdream/lY44pmm/2000/live.m3u8
 https://live.mastvnet.com/lsdream/MSTV/1500/live.m3u8
 #EXTINF:-1,马尔康综合[geo-blocked]
 https://epg.pw/stream/730624d47482fed3331196e40e506833a98c72142af419b50c098c0fdedb850b.m3u8
-#EXTINF:-1,Beautiful Life TV
-https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
-#EXTINF:-1,凤凰资讯
-http://tvbox.netsite.cc/proxy/1650326537/1650326537.m3u8
 #EXTINF:-1,凤凰中文
 http://113.64.145.91:8081/hls/37/index.m3u8
 #EXTINF:-1,凤凰资讯
@@ -2308,12 +2294,6 @@ https://gcalic.v.myalicdn.com/gc/fhgcdgm_1/index.m3u8
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0
 #EXTINF:-1,中国蓝新闻
 http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
-#EXTINF:-1,台視新闻
-http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
-#EXTINF:-1,民視新闻
-http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
-#EXTINF:-1,民視新闻
-http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
 #EXTINF:-1,民視新闻
 http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 #EXTINF:-1,民視新闻台
@@ -2326,8 +2306,6 @@ https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream04/streamPla
 https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream05/streamPlaylist.m3u8?$1080P
 #EXTINF:-1,港台电视35
 https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream04/streamPlaylist.m3u8?$720P
-#EXTINF:-1,CHC动作电影
-http://www.8700956.top:18888/rtp/239.81.0.239:4056
 #EXTINF:-1,CHC家庭影院
 http://nas.tuyuannet.cn:8800/udp/239.37.0.188:5540
 #EXTINF:-1,CHC高清电影
@@ -2358,18 +2336,10 @@ http://116.21.122.2:4433/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 http://43.138.170.29:35455/douyu/9170147
 #EXTINF:-1,纬来体育
 https://cloud.yumixiu768.com/tmp/123.m3u8
-#EXTINF:-1,TVBS-Asia
-http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
-#EXTINF:-1,TVBS亚洲台
-http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
-#EXTINF:-1,TVBS亞洲
-http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
 #EXTINF:-1,TVBS亞洲
 http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
 #EXTINF:-1,TVB星河
 http://cdn8.jdshipin.com:8880/smt.php?id=Xinhe
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/东森超视" tvg-id="东森超视" tvg-name="东森超视" group-title="港澳台",东森超视
-http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1,亚洲新闻
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_3.m3u8
 #EXTINF:-1,凤凰中文
@@ -2386,10 +2356,6 @@ http://vl15191373.imwork.net:8880/udp/239.93.1.4:2191
 http://www.yao87.com:4022/udp/239.76.246.135:1234
 #EXTINF:-1,凤凰香港
 http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701phk72.m3u8
-#EXTINF:-1,台視新聞
-http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
-#EXTINF:-1,台视新闻
-http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8?blog.ntnas.top
 #EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/有线新闻台" tvg-id="有线新闻台" tvg-name="有线新闻台" group-title="港澳台",有线新闻台
 http://61.10.2.141/live_freedirect/freehd209_h.live/playlist.m3u8
 #EXTINF:-1,民視新聞
@@ -2402,8 +2368,6 @@ http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
 https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
 #EXTINF:-1,耀才财经新闻
 http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8?wowzasessionid=64000?zgangd
-#EXTINF:-1,華語電視3
-http://38.64.72.148:80/hls/modn/list/4003/chunklist1.m3u8
 #EXTINF:-1,BBS佛教广播
 http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1403706733.m3u8
 #EXTINF:-1,Fox新闻
@@ -2414,46 +2378,28 @@ https://live-hls-web-aje.getaj.net/AJE/02.m3u8?zshijdp
 https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
 #EXTINF:-1,朝鲜中央台
 http://119.77.96.184:1935/chn05/chn05/chunklist_w644291506.m3u8
-#EXTINF:-1,泰·公共三台
-http://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
 #EXTINF:-1,美·NASA Public Channel
 https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master_2000.m3u8
 #EXTINF:-1,美国mytime
 https://mytime-tcl.amagi.tv/playlist1080-p.m3u8?blog.ntnas.top
 #EXTINF:-1,越·HBTV
 http://hoabinhtvlive.746b3ddb.cdnviet.com/hoabinhtv/playlist.m3u8
-#EXTINF:-1,J2
-http://cdn8.jdshipin.com:8880/smt.php?id=j2_twn
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/无线新闻台" tvg-id="无线新闻台" tvg-name="无线新闻台" group-title="国际台",无线新闻台
-http://cdn8.jdshipin.com:8880/smt.php?id=inews_twn
-#EXTINF:-1,VIUTV
-http://cdn8.jdshipin.com:8880/smt.php?id=viu1_twn
 #EXTINF:-1,HOY77
 http://111.230.195.119:80/香蕉哥/hoy77/hls.m3u8
 #EXTINF:-1,HOY78
 http://111.230.195.119:80/香蕉哥/hoy78/hls.m3u8
 #EXTINF:-1,TVB翡翠
 http://111.230.195.119:80/香蕉哥/tvb/hls.m3u8
-#EXTINF:-1,凤凰资讯HD
-http://william8073.eu.org:9000/live.m3u8?c=19
-#EXTINF:-1,东森财经新闻HD
-http://william8073.eu.org:9000/live.m3u8?c=9
 #EXTINF:-1,台视新闻HD
 http://william8073.eu.org:9000/live.m3u8?c=11
-#EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/民视新闻台" tvg-id="民视新闻台" tvg-name="民视新闻台" group-title="国际台",民视新闻台HD
-http://william8073.eu.org:9000/live.m3u8?c=12
 #EXTINF:-1,三立iNEWS
 http://william8073.eu.org:9000/live.m3u8?c=15
 #EXTINF:-1,大爱一台
 http://william8073.eu.org:9000/live.m3u8?c=16
 #EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/大爱二台" tvg-id="大爱二台" tvg-name="大爱二台" group-title="国际台",大爱二台
 http://william8073.eu.org:9000/live.m3u8?c=17
-#EXTINF:-1,中视经典综艺
-http://william8073.eu.org:9000/live.m3u8?c=28
 #EXTINF:-1,中视大陆寻奇
 http://william8073.eu.org:9000/live.m3u8?c=37
-#EXTINF:-1,Folk TV
-http://584b0aa350b92.streamlock.net:1935/folk-tv/myStream.sdp/playlist.m3u8?fluxustv.m3u8
 #EXTINF:-1,韩国教育台[640*360]
 http://ebsonairios.ebs.co.kr/ebsutablet500k/_definst_/tablet500k/chunklist_w1965791004.m3u8
 #EXTINF:-1,新加坡英语电视台[640*360]
@@ -2464,38 +2410,24 @@ https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_1.m
 http://ebsonairios.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
 #EXTINF:-1,cum4k[1280*720]
 http://3dff4cc4.ucomist.net/iptv/KY6S3K7AMQ8FQM/6190/index.m3u8
-#EXTINF:-1,CYC[1920*1080]
-http://media.smc-host.com:1935/cycnow.com/cyc2/chunklist_w884806316.m3u8
 #EXTINF:-1,Outdoor HD[1920*1080]
 http://ott.watch/stream/E7Q3UVKI5H/211.m3u8
 #EXTINF:-1,vivid[1280*720]
 http://3dff4cc4.ucomist.net/iptv/KY6S3K7AMQ8FQM/6264/index.m3u8
 #EXTINF:-1,俄罗斯Mir[1920*1080]
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
-#EXTINF:-1,SBS 집사부일체
-https://d2c6t9pg1qq2i.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xk9ndm117p4tj-prod/hls-harvester2-1293-prod/us-east-1/cc-xk9ndm117p4tj/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D
 #EXTINF:-1,SBS 백종원의 골목식당
 https://d2riuzghn0kt92.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-et8hq9b8jg99x-prod/hls-harvester2-1293-prod/us-east-1/cc-et8hq9b8jg99x/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D
-#EXTINF:-1,SBS 정글의 법칙
-https://d1qhklddeqjbtp.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-35rocwtlqy12b-prod/hls-harvester2-1293-prod/us-east-1/cc-35rocwtlqy12b/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D
-#EXTINF:-1,SBS 불타는 청춘
-https://d3ev7kkpknycu4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bedw21gabjfhb-prod/hls-harvester2-1293-prod/us-east-1/cc-bedw21gabjfhb/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D
 #EXTINF:-1,Baywatch
 https://d3vdwtqqboxhm9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/BayWatch2-prod/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D
 #EXTINF:-1,21 Jump Street
 https://dpu24vd0o32rf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/21JumpStreet-prod/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D
 #EXTINF:-1,Game Show Central
 https://855649d1dca1413dad89e627e1727d97.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_GameShowCentral/playlist.m3u8?ads.us_privacy=1YNY&ads.wurl_channel=416&ads.wurl_name=GameShowCentral&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0
-#EXTINF:-1,NEW KPOP
-https://8fd4e0b07d96480eb52382739cc8acce.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewKID/playlist.m3u8?ads.wurl_channel=617&ads.wurl_name=NewKID&ads.us_privacy=1YNY&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0
-#EXTINF:-1,WeatherSpy
-https://7eeb372ee2224dbf9138691d0f5d218b.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_WeatherSpy/playlist.m3u8?ads.wurl_channel=387&ads.wurl_name=WeatherSpy&ads.coppa=0&ads.us_privacy=1YNY&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D
 #EXTINF:-1,CINEVAULT: 80s
 https://fb9770c9cf584d64b3c5e3a26637d5ec.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_Cinevault80s/playlist.m3u8?ads.wurl_channel=691&ads.wurl_name=Cinevault80s&ads.coppa=0&ads.us_privacy=1YNY&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D
 #EXTINF:-1,CINEVAULT: Westerns
 https://e7300fca01d348dea7b8f35f2721cc48.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_CinevaultWesterns/playlist.m3u8?ads.wurl_channel=690&ads.wurl_name=CinevaultWesterns&ads.coppa=0&ads.us_privacy=1YNY&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D
-#EXTINF:-1,Comedias - Rakuten TV
-https://b1e945c80353459a8dca16651625ad2e.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-es_RakutenComedyMovies/playlist.m3u8?ads.wurl_channel=428&ads.wurl_name=RakutenComedyMovies&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0&ads.consent=%7BTC_STRING%7D
 #EXTINF:-1,CGTN俄语
 https://liveru.cgtn.com/1000r/prog_index.m3u8
 #EXTINF:-1,CGTN法语
@@ -2548,8 +2480,6 @@ rtmp://f13h.mine.nu/sat/tv331
 http://113.64.145.61:8081/hls/38/index.m3u8
 #EXTINF:-1,AXS TV Now
 https://dikcfc9915kp8.cloudfront.net/hls/1080p/playlist.m3u8
-#EXTINF:-1,Arirang
-https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
 #EXTINF:-1,KBS World
 https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
 #EXTINF:-1,RT Documentary
@@ -2598,8 +2528,6 @@ http://zby.xjqxz.top/cldy/live.m3u8
 http://zby.xjqxz.top/live12/live.m3u8
 #EXTINF:-1,李连杰
 http://zby.xjqxz.top/lljdy/live.m3u8
-#EXTINF:-1,TVBS亚洲
-http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8?$1920x1080
 #EXTINF:-1,凤凰中文
 http://118.254.158.105:8888/udp/239.76.246.134:1234
 #EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/明珠台" tvg-id="明珠台" tvg-name="明珠台" group-title="港澳台",明珠台
@@ -2618,8 +2546,6 @@ https://kbsworld-ott.akamaized.net:443/hls/live/2002341/kbsworld/01.m3u8
 https://epg.pw/stream/fe02817d95c6d58f41e1ea8208b5a8c9462bf525b153819b0c3918406127925a.m3u8
 #EXTINF:-1,蕃薯台
 http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
-#EXTINF:-1,台視新闻
-http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
 #EXTINF:-1,红牛REDBULL TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 #EXTINF:-1,凤凰资讯
