@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
 #EXTINF:-1,tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://epg.112114.xyz/logo/广东卫视.png" group-title="卫视",广东卫视
 http://59.34.94.178:4022/rtp/239.77.0.2:5146
 #EXTINF:-1,tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://epg.112114.xyz/logo/广东卫视.png" group-title="卫视",广东卫视
