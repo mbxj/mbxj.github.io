@@ -3,16 +3,6 @@
 http://live.dxhmt.cn:9081/tv/11281-1.m3u8
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV-1HD
 http://223.167.77.105:4022/rtp/239.45.3.145:5140
-#EXTINF:-1,tvg-id="都市频道HD" tvg-name="都市频道HD" tvg-logo="https://epg.112114.xyz/logo/都市频道.png" group-title="其他",都市频道HD
-http://223.167.77.105:4022/rtp/239.45.3.236:5140
-#EXTINF:-1,tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://epg.112114.xyz/logo/哈哈炫动.png" group-title="其他",哈哈炫动HD
-http://223.167.77.105:4022/rtp/239.45.1.55:5140
-#EXTINF:-1,tvg-id="上视东方影视" tvg-name="上视东方影视" tvg-logo="https://epg.112114.xyz/logo/上视东方影视.png" group-title="其他",东方影视HD
-http://223.167.77.105:4022/rtp/239.45.3.237:5140
-#EXTINF:-1,tvg-id="纪实人文HD" tvg-name="纪实人文HD" tvg-logo="https://epg.112114.xyz/logo/纪实人文.png" group-title="其他",纪实人文HD
-http://223.167.77.105:4022/rtp/239.45.3.212:5140
-#EXTINF:-1,tvg-id="上海新闻综合" tvg-name="上海新闻综合" tvg-logo="https://epg.112114.xyz/logo/上海新闻综合.png" group-title="其他",新闻综合HD
-http://223.167.77.105:4022/rtp/239.45.3.209:5140
 #EXTINF:-1,tvg-id="上海五星体育" tvg-name="上海五星体育" tvg-logo="https://epg.112114.xyz/logo/上海五星体育.png" group-title="其他",五星体育HD
 http://223.167.77.105:4022/rtp/239.45.3.210:5140
 #EXTINF:-1,tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://epg.112114.xyz/logo/CCTV5+.png" group-title="央视",CCTV-5+HD
@@ -75,8 +65,6 @@ http://223.167.77.105:4022/rtp/239.45.1.122:5140
 http://223.167.77.105:4022/rtp/239.45.1.123:5140
 #EXTINF:-1,tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://epg.112114.xyz/logo/天津卫视.png" group-title="卫视",天津卫视HD
 http://223.167.77.105:4022/rtp/239.45.1.124:5140
-#EXTINF:-1,tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://epg.112114.xyz/logo/中国教育1台.png" group-title="其他",中国教育-1HD
-http://223.167.77.105:4022/rtp/239.45.1.125:5140
 #EXTINF:-1,tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://epg.112114.xyz/logo/四川卫视.png" group-title="卫视",四川卫视HD
 http://223.167.77.105:4022/rtp/239.45.1.83:5140
 #EXTINF:-1,tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://epg.112114.xyz/logo/重庆卫视.png" group-title="卫视",重庆卫视HD
