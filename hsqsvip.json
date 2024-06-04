@@ -13,7 +13,7 @@
   "sites": [
       {
         "key": "玩偶哥哥",
-        "name": "淑清姐姐4k专用",
+        "name": "淑清姐4k专用",
         "type": 3,
         "api": "csp_WoGG",
         "searchable": 1,
@@ -29,7 +29,7 @@
       },
       {
         "key": "玩偶哥哥",
-        "name": "淑清姐姐4k专用",
+        "name": "淑清姐4k专用",
         "type": 3,
         "api": "csp_WoGG",
         "searchable": 1,
@@ -40,7 +40,7 @@
     },
     {
       "key": "csp_xBPQ_九八",
-      "name": "淑清姐姐😘 | 2k画质",
+      "name": "淑清姐2k画质",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -50,14 +50,14 @@
       },
       {
         "key": "荐片",
-        "name": "淑清姐姐 | 2k有广告",
+        "name": "淑清姐高清",
         "type": 3,
         "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
         "ext": "http://mdxgh.tpddns.cn:9999/mdlib/jianpian.js"
       },
       {
         "key": "csp_New6v",
-        "name": "淑清姐姐",
+        "name": "淑清姐普清",
         "type": 3,
         "api": "csp_New6v",
         "searchable": 1,
@@ -67,8 +67,8 @@
     },
     {
       "key": "csp_五五",
-      "name": "淑清姐姐😶 | 五五",
-      "type": 3,
+      "name": "淑清姐姐备用",
+      "type": 3,  
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
