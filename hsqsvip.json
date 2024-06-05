@@ -1,7 +1,7 @@
 
 {
   "spider": "http://mdxgh.tpddns.cn:9999/mdlib/spider.jar",
-  "warningText": "黄淑清姐姐专属影视",
+  "warningText": "楚楚baby专属影视",
   "lives": [
       {
           "name": "live",
@@ -13,7 +13,7 @@
   "sites": [
       {
         "key": "玩偶哥哥",
-        "name": "淑清姐4k专用",
+        "name": "楚楚baby4k专用",
         "type": 3,
         "api": "csp_WoGG",
         "searchable": 1,
@@ -29,7 +29,7 @@
       },
       {
         "key": "玩偶哥哥",
-        "name": "淑清姐4k专用",
+        "name": "楚楚baby4k专用",
         "type": 3,
         "api": "csp_WoGG",
         "searchable": 1,
@@ -40,7 +40,7 @@
     },
     {
       "key": "csp_xBPQ_九八",
-      "name": "淑清姐2k画质",
+      "name": "楚楚baby2k画质",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -50,14 +50,14 @@
       },
       {
         "key": "荐片",
-        "name": "淑清姐高清",
+        "name": "楚楚baby高清",
         "type": 3,
         "api": "http://mdxgh.tpddns.cn:9999/mdlib/drpy2.min.js",
         "ext": "http://mdxgh.tpddns.cn:9999/mdlib/jianpian.js"
       },
       {
         "key": "csp_New6v",
-        "name": "淑清姐普清",
+        "name": "楚楚baby普清",
         "type": 3,
         "api": "csp_New6v",
         "searchable": 1,
@@ -67,7 +67,7 @@
     },
     {
       "key": "csp_五五",
-      "name": "淑清姐姐备用",
+      "name": "楚楚baby备用",
       "type": 3,  
       "api": "csp_XBPQ",
       "searchable": 1,
