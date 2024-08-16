@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width: 300px;
+        height: 300px;
+        margin:  0 auto;
+        margin-top: 100px;
+        display: grid   ;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-template:
+        'A A B'
+        'C D B'
+        'C E E';
+        grid-gap: 10px;
+        animation: rotation 10s infinite linear;    
+    }
+    .item:nth-child(1){
+        grid-area: A;
+    }
+    .item:nth-child(2){
+        grid-area: B;
+    }
+    .item:nth-child(3){
+        grid-area: C;
+    }
+    .item:nth-child(4){
+        grid-area: D;
+    }
+    .item:nth-child(5){
+        grid-area: E;
+    }
+    .item{
+        overflow: hidden;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .item img{
+        width: 260%;
+        height: 260%;
+        object-fit: cover;
+        animation: rotation 10s infinite linear reverse;
+    }
+    @keyframes rotation{
+        to{
+            transform:rotate(360deg)
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="item">
+            <img src="./1.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="./3.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="./5.jpg" alt="">
+        </div>
+        <div class="item">
+            <img style="width: 200%;height: 200%;" src="./4.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="./6.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
