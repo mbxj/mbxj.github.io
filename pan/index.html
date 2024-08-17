@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--     <title>潘冬燕，我郑灿杰爱你一辈子</title> -->
-    <title>先不给你看，嘿嘿</title>
+    <title>潘冬燕，我郑灿杰爱你一辈子</title>
 </head>
 <style>
     body {
@@ -75,8 +74,7 @@
     }
 </style>
 <body>
-    <div style="text-align: center;font-size: 50px;margin-top: 100px;color: #333;">到时候再看</div>
-<!--     <div style="background-color: #fff;">
+    <div style="background-color: #fff;">
         <canvas id="canvas2"></canvas>
     </div>
     <div class="container">
@@ -96,636 +94,636 @@
             <img style="width: 300%;height: 300%;" src="./6.jpg" alt="">
         </div>
     </div>
-    <canvas id="canvas1"></canvas> -->
+    <canvas id="canvas1"></canvas>
 </body>
 <script>
-    // class Vector2 {
-    //   constructor(x = 0, y = 0) {
-    //     this.x = x;
-    //     this.y = y;
-    //   }
+    class Vector2 {
+      constructor(x = 0, y = 0) {
+        this.x = x;
+        this.y = y;
+      }
 
-    //   add(v) {
-    //     this.x += v.x;
-    //     this.y += v.y;
-    //     return this;
-    //   }
+      add(v) {
+        this.x += v.x;
+        this.y += v.y;
+        return this;
+      }
 
-    //   multiplyScalar(s) {
-    //     this.x *= s;
-    //     this.y *= s;
-    //     return this;
-    //   }
+      multiplyScalar(s) {
+        this.x *= s;
+        this.y *= s;
+        return this;
+      }
 
-    //   clone() {
-    //     return new Vector2(this.x, this.y);
-    //   }
-    // }
+      clone() {
+        return new Vector2(this.x, this.y);
+      }
+    }
 
-    // class Time {
-    //   constructor() {
-    //     const now = Time.now();
+    class Time {
+      constructor() {
+        const now = Time.now();
 
-    //     this.delta = 0;
-    //     this.elapsed = 0;
-    //     this.start = now;
-    //     this.previous = now;
-    //   }
+        this.delta = 0;
+        this.elapsed = 0;
+        this.start = now;
+        this.previous = now;
+      }
 
-    //   update() {
-    //     const now = Time.now();
+      update() {
+        const now = Time.now();
 
-    //     this.delta = now - this.previous;
-    //     this.elapsed = now - this.start;
-    //     this.previous = now;
-    //   }
+        this.delta = now - this.previous;
+        this.elapsed = now - this.start;
+        this.previous = now;
+      }
 
-    //   static now() {
-    //     return Date.now() / 1000;
-    //   }
-    // }
+      static now() {
+        return Date.now() / 1000;
+      }
+    }
 
-    // class Particle {
-    //   constructor(position, velocity = new Vector2, color = 'white', radius = 1, lifetime = 1, mass = 1) {
-    //     this.position = position;
-    //     this.velocity = velocity;
-    //     this.color = color;
-    //     this.radius = radius;
-    //     this.lifetime = lifetime;
-    //     this.mass = mass;
+    class Particle {
+      constructor(position, velocity = new Vector2, color = 'white', radius = 1, lifetime = 1, mass = 1) {
+        this.position = position;
+        this.velocity = velocity;
+        this.color = color;
+        this.radius = radius;
+        this.lifetime = lifetime;
+        this.mass = mass;
 
-    //     this.isInCanvas = true;
-    //     this.createdOn = Time.now();
-    //   }
+        this.isInCanvas = true;
+        this.createdOn = Time.now();
+      }
 
-    //   update(time) {
-    //     if (!this.getRemainingLifetime()) {
-    //       return;
-    //     }
+      update(time) {
+        if (!this.getRemainingLifetime()) {
+          return;
+        }
 
-    //     this.velocity.add(Particle.GRAVITATION.clone().multiplyScalar(this.mass));
-    //     this.position.add(this.velocity.clone().multiplyScalar(time.delta));
-    //   }
+        this.velocity.add(Particle.GRAVITATION.clone().multiplyScalar(this.mass));
+        this.position.add(this.velocity.clone().multiplyScalar(time.delta));
+      }
 
-    //   render(canvas, context) {
-    //     const remainingLifetime = this.getRemainingLifetime();
+      render(canvas, context) {
+        const remainingLifetime = this.getRemainingLifetime();
 
-    //     if (!remainingLifetime) return;
+        if (!remainingLifetime) return;
 
-    //     const radius = this.radius * remainingLifetime;
+        const radius = this.radius * remainingLifetime;
 
-    //     context.globalAlpha = remainingLifetime;
-    //     context.globalCompositeOperation = 'lighter';
-    //     context.fillStyle = this.color;
+        context.globalAlpha = remainingLifetime;
+        context.globalCompositeOperation = 'lighter';
+        context.fillStyle = this.color;
 
-    //     context.beginPath();
-    //     context.arc(this.position.x, this.position.y, radius, 0, Math.PI * 2);
-    //     context.fill();
-    //   }
+        context.beginPath();
+        context.arc(this.position.x, this.position.y, radius, 0, Math.PI * 2);
+        context.fill();
+      }
 
-    //   getRemainingLifetime() {
-    //     const elapsedLifetime = Time.now() - this.createdOn;
-    //     return Math.max(0, this.lifetime - elapsedLifetime) / this.lifetime;
-    //   }
-    // }
+      getRemainingLifetime() {
+        const elapsedLifetime = Time.now() - this.createdOn;
+        return Math.max(0, this.lifetime - elapsedLifetime) / this.lifetime;
+      }
+    }
 
-    // Particle.GRAVITATION = new Vector2(0, 9.81);
+    Particle.GRAVITATION = new Vector2(0, 9.81);
 
-    // class Trail extends Particle {
-    //   constructor(childFactory, position, velocity = new Vector2, lifetime = 1, mass = 1) {
-    //     super(position, velocity);
+    class Trail extends Particle {
+      constructor(childFactory, position, velocity = new Vector2, lifetime = 1, mass = 1) {
+        super(position, velocity);
 
-    //     this.childFactory = childFactory;
-    //     this.children = [];
-    //     this.lifetime = lifetime;
-    //     this.mass = mass;
+        this.childFactory = childFactory;
+        this.children = [];
+        this.lifetime = lifetime;
+        this.mass = mass;
 
-    //     this.isAlive = true;
-    //   }
+        this.isAlive = true;
+      }
 
-    //   update(time) {
-    //     super.update(time);
+      update(time) {
+        super.update(time);
 
-    //     // Add a new child on every frame
-    //     if (this.isAlive && this.getRemainingLifetime()) {
-    //       this.children.push(this.childFactory(this));
-    //     }
+        // Add a new child on every frame
+        if (this.isAlive && this.getRemainingLifetime()) {
+          this.children.push(this.childFactory(this));
+        }
 
-    //     // Remove particles that are dead
-    //     this.children = this.children.filter(function (child) {
-    //       if (child instanceof Trail) {
-    //         return child.isAlive;
-    //       }
+        // Remove particles that are dead
+        this.children = this.children.filter(function (child) {
+          if (child instanceof Trail) {
+            return child.isAlive;
+          }
 
-    //       return child.getRemainingLifetime();
-    //     });
+          return child.getRemainingLifetime();
+        });
 
-    //     // Kill trail if all particles fade away
-    //     if (!this.children.length) {
-    //       this.isAlive = false;
-    //     }
+        // Kill trail if all particles fade away
+        if (!this.children.length) {
+          this.isAlive = false;
+        }
 
-    //     // Update particles
-    //     this.children.forEach(function (child) {
-    //       child.update(time);
-    //     });
-    //   }
+        // Update particles
+        this.children.forEach(function (child) {
+          child.update(time);
+        });
+      }
 
-    //   render(canvas, context) {
-    //     // Render all children
-    //     this.children.forEach(function (child) {
-    //       child.render(canvas, context);
-    //     });
-    //   }
-    // }
+      render(canvas, context) {
+        // Render all children
+        this.children.forEach(function (child) {
+          child.render(canvas, context);
+        });
+      }
+    }
 
-    // class Rocket extends Trail {
-    //   constructor(childFactory, explosionFactory, position, velocity = new Vector2) {
-    //     super(childFactory, position, velocity);
+    class Rocket extends Trail {
+      constructor(childFactory, explosionFactory, position, velocity = new Vector2) {
+        super(childFactory, position, velocity);
 
-    //     this.explosionFactory = explosionFactory;
-    //     this.lifetime = 10;
-    //   }
+        this.explosionFactory = explosionFactory;
+        this.lifetime = 10;
+      }
 
-    //   update(time) {
-    //     if (this.getRemainingLifetime() && this.velocity.y > 0) {
-    //       this.explosionFactory(this);
-    //       this.lifetime = 0;
-    //     }
+      update(time) {
+        if (this.getRemainingLifetime() && this.velocity.y > 0) {
+          this.explosionFactory(this);
+          this.lifetime = 0;
+        }
 
-    //     super.update(time);
-    //   }
-    // }
+        super.update(time);
+      }
+    }
 
 
-    // const canvas1 = document.getElementById('canvas1');
-    // const context = canvas1.getContext('2d');
-    // const time = new Time;
-    // let rockets = [];
+    const canvas1 = document.getElementById('canvas1');
+    const context = canvas1.getContext('2d');
+    const time = new Time;
+    let rockets = [];
 
-    // const getTrustParticleFactory = function (baseHue) {
-    //   function getColor() {
-    //     const hue = Math.floor(Math.random() * 15 + 30);
-    //     return `hsl(${hue}, 100%, 75%`;
-    //   }
+    const getTrustParticleFactory = function (baseHue) {
+      function getColor() {
+        const hue = Math.floor(Math.random() * 15 + 30);
+        return `hsl(${hue}, 100%, 75%`;
+      }
 
-    //   return function (parent) {
-    //     const position = this.position.clone();
-    //     const velocity = this.velocity.clone().multiplyScalar(-.1);
-    //     velocity.x += (Math.random() - .5) * 8;
-    //     const color = getColor();
-    //     const radius = 1 + Math.random();
-    //     const lifetime = .5 + Math.random() * .5;
-    //     const mass = .01;
+      return function (parent) {
+        const position = this.position.clone();
+        const velocity = this.velocity.clone().multiplyScalar(-.1);
+        velocity.x += (Math.random() - .5) * 8;
+        const color = getColor();
+        const radius = 1 + Math.random();
+        const lifetime = .5 + Math.random() * .5;
+        const mass = .01;
 
-    //     return new Particle(position, velocity, color, radius, lifetime, mass);
-    //   };
-    // };
+        return new Particle(position, velocity, color, radius, lifetime, mass);
+      };
+    };
 
-    // const getExplosionFactory = function (baseHue) {
-    //   function getColor() {
-    //     const hue = Math.floor(baseHue + Math.random() * 15) % 360;
-    //     const lightness = Math.floor(Math.pow(Math.random(), 2) * 50 + 50);
-    //     return `hsl(${hue}, 100%, ${lightness}%`;
-    //   }
+    const getExplosionFactory = function (baseHue) {
+      function getColor() {
+        const hue = Math.floor(baseHue + Math.random() * 15) % 360;
+        const lightness = Math.floor(Math.pow(Math.random(), 2) * 50 + 50);
+        return `hsl(${hue}, 100%, ${lightness}%`;
+      }
 
-    //   function getChildFactory() {
-    //     return function (parent) {
-    //       const direction = Math.random() * Math.PI * 2;
-    //       const force = 8;
-    //       const velocity = new Vector2(Math.cos(direction) * force, Math.sin(direction) * force);
-    //       const color = getColor();
-    //       const radius = 1 + Math.random();
-    //       const lifetime = 1;
-    //       const mass = .1;
+      function getChildFactory() {
+        return function (parent) {
+          const direction = Math.random() * Math.PI * 2;
+          const force = 8;
+          const velocity = new Vector2(Math.cos(direction) * force, Math.sin(direction) * force);
+          const color = getColor();
+          const radius = 1 + Math.random();
+          const lifetime = 1;
+          const mass = .1;
 
-    //       return new Particle(parent.position.clone(), velocity, color, radius, lifetime, mass);
-    //     };
-    //   }
+          return new Particle(parent.position.clone(), velocity, color, radius, lifetime, mass);
+        };
+      }
 
-    //   function getTrail(position) {
-    //     const direction = Math.random() * Math.PI * 2;
-    //     const force = Math.random() * 128;
-    //     const velocity = new Vector2(Math.cos(direction) * force, Math.sin(direction) * force);
-    //     const lifetime = .5 + Math.random();
-    //     const mass = .075;
+      function getTrail(position) {
+        const direction = Math.random() * Math.PI * 2;
+        const force = Math.random() * 128;
+        const velocity = new Vector2(Math.cos(direction) * force, Math.sin(direction) * force);
+        const lifetime = .5 + Math.random();
+        const mass = .075;
 
-    //     return new Trail(getChildFactory(), position, velocity, lifetime, mass);
-    //   }
+        return new Trail(getChildFactory(), position, velocity, lifetime, mass);
+      }
 
-    //   return function (parent) {
-    //     let trails = 32;
-    //     while (trails--) {
-    //       parent.children.push(getTrail(parent.position.clone()));
-    //     }
-    //   };
-    // };
+      return function (parent) {
+        let trails = 32;
+        while (trails--) {
+          parent.children.push(getTrail(parent.position.clone()));
+        }
+      };
+    };
 
-    // const addRocket = function () {
-    //   const trustParticleFactory = getTrustParticleFactory();
-    //   const explosionFactory = getExplosionFactory(Math.random() * 360);
+    const addRocket = function () {
+      const trustParticleFactory = getTrustParticleFactory();
+      const explosionFactory = getExplosionFactory(Math.random() * 360);
 
-    //   const position = new Vector2(Math.random() * canvas1.width, canvas1.height);
-    //   const thrust = window.innerHeight * .75;
-    //   const angle = Math.PI / -2 + (Math.random() - .5) * Math.PI / 8;
-    //   const velocity = new Vector2(Math.cos(angle) * thrust, Math.sin(angle) * thrust);
-    //   const lifetime = 3;
+      const position = new Vector2(Math.random() * canvas1.width, canvas1.height);
+      const thrust = window.innerHeight * .75;
+      const angle = Math.PI / -2 + (Math.random() - .5) * Math.PI / 8;
+      const velocity = new Vector2(Math.cos(angle) * thrust, Math.sin(angle) * thrust);
+      const lifetime = 3;
 
-    //   rockets.push(new Rocket(trustParticleFactory, explosionFactory, position, velocity, lifetime));
+      rockets.push(new Rocket(trustParticleFactory, explosionFactory, position, velocity, lifetime));
 
-    //   rockets = rockets.filter(function (rocket) {
-    //     return rocket.isAlive;
-    //   });
-    // };
+      rockets = rockets.filter(function (rocket) {
+        return rocket.isAlive;
+      });
+    };
 
-    // const render = function () {
-    //   requestAnimationFrame(render);
+    const render = function () {
+      requestAnimationFrame(render);
 
-    //   time.update();
-    //   context.clearRect(0, 0, canvas1.width, canvas1.height);
+      time.update();
+      context.clearRect(0, 0, canvas1.width, canvas1.height);
 
-    //   rockets.forEach(function (rocket) {
-    //     rocket.update(time);
-    //     rocket.render(canvas1, context);
-    //   });
-    // };
+      rockets.forEach(function (rocket) {
+        rocket.update(time);
+        rocket.render(canvas1, context);
+      });
+    };
 
-    // const resize = function () {
-    //   canvas1.height = window.innerHeight;
-    //   canvas1.width = window.innerWidth;
-    // };
+    const resize = function () {
+      canvas1.height = window.innerHeight;
+      canvas1.width = window.innerWidth;
+    };
 
-    // canvas1.onclick = addRocket;
-    // const canvasheight = -(document.querySelector('.container').getBoundingClientRect().height + 250) + 'px';
+    canvas1.onclick = addRocket;
+    const canvasheight = -(document.querySelector('.container').getBoundingClientRect().height + 250) + 'px';
 
-    //     canvas1.style.marginTop = canvasheight;
-    //     // canvas.style.position = 'absolute';
-    //     // console.log(canvas.style.marginTop,'执行',typeof(canvasheight));
+        canvas1.style.marginTop = canvasheight;
+        // canvas.style.position = 'absolute';
+        // console.log(canvas.style.marginTop,'执行',typeof(canvasheight));
 
     
-    // window.onresize = resize;
-    // resize();
-
-    // setInterval(addRocket, 2000);
-    // render();
-
-    // // 我爱你
-    // const BezierEasing = (() => {
-    //   var r = 4,
-    //     n = .001,
-    //     t = 1e-7,
-    //     u = 10,
-    //     e = 11,
-    //     o = 1 / (e - 1),
-    //     i = "function" == typeof Float32Array;
-
-    //   function f(r, n) {
-    //     return 1 - 3 * n + 3 * r
-    //   }
-
-    //   function a(r, n) {
-    //     return 3 * n - 6 * r
-    //   }
-
-    //   function c(r) {
-    //     return 3 * r
-    //   }
-
-    //   function v(r, n, t) {
-    //     return ((f(n, t) * r + a(n, t)) * r + c(n)) * r
-    //   }
-
-    //   function s(r, n, t) {
-    //     return 3 * f(n, t) * r * r + 2 * a(n, t) * r + c(n)
-    //   }
-
-    //   function w(r) {
-    //     return r
-    //   }
-    //   return function (f, a, c, l) {
-    //     if (!(0 <= f && f <= 1 && 0 <= c && c <= 1)) throw new Error("bezier x values must be in [0, 1] range");
-    //     if (f === a && c === l) return w;
-    //     for (var y = i ? new Float32Array(e) : new Array(e), b = 0; b < e; ++b) y[b] = v(b * o, f, c);
-
-    //     function h(i) {
-    //       for (var a = 0, w = 1, l = e - 1; w !== l && y[w] <= i; ++w) a += o;
-    //       var b = a + (i - y[--w]) / (y[w + 1] - y[w]) * o,
-    //         h = s(b, f, c);
-    //       return h >= n ? function (n, t, u, e) {
-    //         for (var o = 0; o < r; ++o) {
-    //           var i = s(t, u, e);
-    //           if (0 === i) return t;
-    //           t -= (v(t, u, e) - n) / i
-    //         }
-    //         return t
-    //       }(i, b, f, c) : 0 === h ? b : function (r, n, e, o, i) {
-    //         var f, a, c = 0;
-    //         do {
-    //           (f = v(a = n + (e - n) / 2, o, i) - r) > 0 ? e = a : n = a
-    //         } while (Math.abs(f) > t && ++c < u);
-    //         return a
-    //       }(i, a, a + o, f, c)
-    //     }
-    //     return function (r) {
-    //       return 0 === r ? 0 : 1 === r ? 1 : v(h(r), a, l)
-    //     }
-    //   }
-    // })();
-    // // https://github.com/gre/bezier-easing
-
-    // if (typeof OffscreenCanvas === 'undefined') {
-    //   document.querySelector('.hidden-warning').classList.remove('hidden-warning');
-    // }
-
-    // const random = {
-    //   value() {
-    //     return Math.random();
-    //   },
-    //   range(min, max) {
-    //     return min + this.value() * (max - min);
-    //   },
-    //   floorRange(min, max) {
-    //     return Math.floor(this.range(min, max));
-    //   }
-    // }
-
-    // const rotationEasing = BezierEasing(0.9, 0.25, 0.1, 0.75);
-
-    // const canvas2 = document.getElementById('canvas2');
-    // const ctx = canvas2.getContext('2d');
-
-    // const width = canvas2.width = canvas2.clientWidth;
-    // const height = canvas2.height = 150;
-
-    // const helloTiles = generateTiles('潘冬燕');
-    // const worldTiles = generateTiles('郑灿杰永远爱你', textCtx => {
-    //   textCtx.fillStyle = 'white';
-    // });
-
-    // frame();
-
-    // function frame(timestamp = 0) {
-    //   requestAnimationFrame(frame);
-
-    //   const t = timestamp / 1400;
-
-    //   ctx.clearRect(0, 0, width, height);
-    //   ctx.save();
-
-    //   let rotationT = t % (Math.PI * 2);
-    //   const extra = rotationT > Math.PI ? Math.PI : 0;
-    //   rotationT =
-    //     rotationEasing((rotationT - extra) / Math.PI) * Math.PI + extra;
-
-    //   ctx.translate(width / 2, height / 2);
-    //   ctx.rotate(rotationT);
-    //   ctx.translate(-width / 2, -height / 2);
-
-    //   ctx.fillStyle = 'black';
-    //   ctx.fillRect(
-    //     width / -2,
-    //     height / 2,
-    //     width * 2,
-    //     height * 2
-    //   );
-
-    //   const helloT = cubicInOut(Math.cos(t - Math.PI) / 2 + 0.5);
-    //   drawTiles(helloTiles, helloT);
-
-    //   ctx.save();
-    //   ctx.translate(width / 2, height / 2);
-    //   ctx.rotate(Math.PI);
-    //   ctx.translate(width / -2, height / -2);
-    //   const worldT = cubicInOut(Math.cos(t) / 2 + 0.5);
-    //   drawTiles(worldTiles, worldT);
-    //   ctx.restore();
-
-    //   ctx.restore();
-    // }
-
-    // function generateTiles(text, styleFn, tilesX = 15, tilesY = 7) {
-    //   const textCanvas = new OffscreenCanvas(300, 120);
-    //   const textCtx = textCanvas.getContext('2d');
-
-    //   const textWidth = textCtx.canvas.width;
-    //   const textHeight = textCtx.canvas.height;
-
-    //   const tileWidth = textWidth / tilesX;
-    //   const tileHeight = textHeight / tilesY;
-
-    //   const verticalLines = [
-    //     [0, 0]
-    //   ];
-    //   for (let i = 1; i < tilesX; i++) {
-    //     const topX = tileWidth * i + random.range(-0.5, 0.5) * tileWidth * 0.8;
-    //     const bottomX =
-    //       tileWidth * i + random.range(-0.5, 0.5) * tileWidth * 0.8;
-    //     verticalLines.push([topX, bottomX]);
-    //   }
-    //   verticalLines.push([textWidth, textWidth]);
-
-    //   const horizontalLines = [
-    //     [0, 0]
-    //   ];    
-    //   for (let i = 1; i < tilesY; i++) {
-    //     const leftY =
-    //       tileHeight * i + random.range(-0.5, 0.5) * tileHeight * 0.8;
-    //     const rightY =
-    //       tileHeight * i + random.range(-0.5, 0.5) * tileHeight * 0.8;
-    //     horizontalLines.push([leftY, rightY]);
-    //   }
-    //   horizontalLines.push([textHeight, textHeight]);
-
-    //   // Given points (x1, y1) and (x2, y2), returns a and b where y = ax + b
-    //   const solveLine = (x1, y1, x2, y2) => {
-    //     const detA = x1 - x2;
-    //     const a = (y1 - y2) / detA;
-    //     const b = y1 - a * x1;
-
-    //     return [a, b];
-    //   };
-
-    //   const findIntersection = (verticalLine, horizontalLine) => {
-    //     const [a, b] = solveLine(
-    //       verticalLine[0],
-    //       0,
-    //       verticalLine[1],
-    //       textHeight
-    //     );
-    //     const [c, d] = solveLine(
-    //       0,
-    //       horizontalLine[0],
-    //       textWidth,
-    //       horizontalLine[1]
-    //     );
-
-    //     if (!isFinite(a)) {
-    //       const x = verticalLine[0];
-    //       const y = c * x + d;
-    //       return [x, y];
-    //     }
-
-    //     if (!isFinite(c)) {
-    //       return [0, b];
-    //     }
-
-    //     const x = (d - b) / (a - c);
-    //     const y = a * x + b;
-    //     return [x, y];
-    //   };
-
-    //   const tiles = [];
-    //   const maxDelay = verticalLines.length + horizontalLines.length - 4;
-    //   verticalLines.slice(0, -1).forEach((verticalLine, i) => {
-    //     const nextVerticalLine = verticalLines[i + 1];
-
-    //     horizontalLines.slice(0, -1).forEach((horizontalLine, j) => {
-    //       const nextHorizontalLine = horizontalLines[j + 1];
-
-    //       const topLeft = findIntersection(verticalLine, horizontalLine);
-    //       const topRight = findIntersection(nextVerticalLine, horizontalLine);
-    //       const bottomLeft = findIntersection(verticalLine, nextHorizontalLine);
-    //       const bottomRight = findIntersection(
-    //         nextVerticalLine,
-    //         nextHorizontalLine
-    //       );
-
-    //       // This is to make the tile overlap slightly, fixing a strange issue
-    //       topLeft[0] -= 0.5;
-    //       topLeft[1] -= 0.5;
-    //       topRight[0] += 0.5;
-    //       topRight[1] -= 0.5;
-    //       bottomLeft[0] -= 0.5;
-    //       bottomLeft[1] += 0.5;
-    //       bottomRight[0] += 0.5;
-    //       bottomRight[1] += 0.5;
-
-    //       let delay = maxDelay - i - j;
-
-    //       if (delay !== 0) {
-    //         delay += random.range(-0.25, 0.25);
-    //       }
-
-    //       tiles.push({
-    //         coords: [topLeft, topRight, bottomLeft, bottomRight],
-    //         delay,
-    //         translate: [random.range(-40, 40), random.range(140, 160) + j * 10],
-    //         rotate: random.range(-Math.PI / 2, Math.PI / 2)
-    //       });
-    //     });
-    //   });
-
-    //   textCtx.fillStyle = 'black';
-    //   textCtx.font = '30px sans-serif';
-    //   textCtx.textAlign = 'center';
-    //   textCtx.textBaseline = 'middle';
-
-    //   if (typeof styleFn === 'function') {
-    //     styleFn(textCtx);
-    //   }
-
-    //   tiles.forEach(({
-    //     coords
-    //   }, i) => {
-    //     const [topLeft, topRight, bottomLeft, bottomRight] = coords;
-
-    //     textCtx.clearRect(0, 0, textWidth, textHeight);
-    //     textCtx.save();
-
-    //     textCtx.beginPath();
-    //     textCtx.moveTo(...topLeft);
-    //     textCtx.lineTo(...topRight);
-    //     textCtx.lineTo(...bottomRight);
-    //     textCtx.lineTo(...bottomLeft);
-    //     textCtx.clip();
-
-    //     textCtx.fillText(text, textWidth / 2, textHeight / 2, textWidth);
-
-    //     tiles[i].bitmap = textCtx.canvas.transferToImageBitmap();
-
-    //     textCtx.restore();
-    //   });
-
-    //   return {
-    //     tiles,
-    //     tileWidth,
-    //     tileHeight,
-    //     textWidth,
-    //     textHeight
-    //   };
-    // }
-
-    // function drawTiles(tilesObj, t) {
-    //   const {
-    //     tiles,
-    //     tileWidth,
-    //     tileHeight,
-    //     textWidth,
-    //     textHeight
-    //   } = tilesObj;
-
-    //   ctx.save();
-
-    //   ctx.beginPath();
-    //   ctx.moveTo(0, 0);
-    //   ctx.lineTo(width, 0);
-    //   ctx.lineTo(width, height / 2);
-    //   ctx.lineTo(0, height / 2);
-    //   ctx.clip();
-
-    //   const offsetY = 50;
-    //   const centerX = (width - textWidth) / 2;
-    //   const centerY = (height - textHeight - offsetY) / 2;
-    //   ctx.translate(centerX, centerY);
-
-    //   // 0 <= t < 1
-    //   // Adjusted t range
-    //   const tRange = 0.6;
-
-    //   const maxDelay = Math.max(...tiles.map(({
-    //     delay
-    //   }) => delay));
-
-    //   tiles.forEach(({
-    //     bitmap,
-    //     coords,
-    //     delay,
-    //     rotate,
-    //     translate
-    //   }) => {
-    //     const [topLeft] = coords;
-
-    //     const offset = ((1 - tRange) * delay) / maxDelay;
-    //     // adjustedT can actually be more than 1 but that's okay
-    //     const adjustedT = Math.max(0, t / tRange - offset);
-
-    //     ctx.save();
-
-    //     const origin = [
-    //       topLeft[0] + tileWidth / 2,
-    //       topLeft[1] + tileHeight / 2
-    //     ];
-    //     // ctx.translate(origin[0], origin[1]);
-    //     ctx.translate(
-    //       topLeft[0] + translate[0] * adjustedT,
-    //       topLeft[1] + translate[1] * adjustedT
-    //     );
-    //     ctx.rotate(rotate * adjustedT);
-    //     ctx.translate(-origin[0], -origin[1]);
-    //     ctx.drawImage(bitmap, 0, 0, textWidth, textHeight);
-    //     ctx.restore();
-    //   });
-
-    //   ctx.restore();
-    // }
-
-
-
-    // function cubicInOut(t) {
-    //   return t < 0.5 ?
-    //     4.0 * t * t * t :
-    //     0.5 * Math.pow(2.0 * t - 2.0, 3.0) + 1.0
-    // }
+    window.onresize = resize;
+    resize();
+
+    setInterval(addRocket, 2000);
+    render();
+
+    // 我爱你
+    const BezierEasing = (() => {
+      var r = 4,
+        n = .001,
+        t = 1e-7,
+        u = 10,
+        e = 11,
+        o = 1 / (e - 1),
+        i = "function" == typeof Float32Array;
+
+      function f(r, n) {
+        return 1 - 3 * n + 3 * r
+      }
+
+      function a(r, n) {
+        return 3 * n - 6 * r
+      }
+
+      function c(r) {
+        return 3 * r
+      }
+
+      function v(r, n, t) {
+        return ((f(n, t) * r + a(n, t)) * r + c(n)) * r
+      }
+
+      function s(r, n, t) {
+        return 3 * f(n, t) * r * r + 2 * a(n, t) * r + c(n)
+      }
+
+      function w(r) {
+        return r
+      }
+      return function (f, a, c, l) {
+        if (!(0 <= f && f <= 1 && 0 <= c && c <= 1)) throw new Error("bezier x values must be in [0, 1] range");
+        if (f === a && c === l) return w;
+        for (var y = i ? new Float32Array(e) : new Array(e), b = 0; b < e; ++b) y[b] = v(b * o, f, c);
+
+        function h(i) {
+          for (var a = 0, w = 1, l = e - 1; w !== l && y[w] <= i; ++w) a += o;
+          var b = a + (i - y[--w]) / (y[w + 1] - y[w]) * o,
+            h = s(b, f, c);
+          return h >= n ? function (n, t, u, e) {
+            for (var o = 0; o < r; ++o) {
+              var i = s(t, u, e);
+              if (0 === i) return t;
+              t -= (v(t, u, e) - n) / i
+            }
+            return t
+          }(i, b, f, c) : 0 === h ? b : function (r, n, e, o, i) {
+            var f, a, c = 0;
+            do {
+              (f = v(a = n + (e - n) / 2, o, i) - r) > 0 ? e = a : n = a
+            } while (Math.abs(f) > t && ++c < u);
+            return a
+          }(i, a, a + o, f, c)
+        }
+        return function (r) {
+          return 0 === r ? 0 : 1 === r ? 1 : v(h(r), a, l)
+        }
+      }
+    })();
+    // https://github.com/gre/bezier-easing
+
+    if (typeof OffscreenCanvas === 'undefined') {
+      document.querySelector('.hidden-warning').classList.remove('hidden-warning');
+    }
+
+    const random = {
+      value() {
+        return Math.random();
+      },
+      range(min, max) {
+        return min + this.value() * (max - min);
+      },
+      floorRange(min, max) {
+        return Math.floor(this.range(min, max));
+      }
+    }
+
+    const rotationEasing = BezierEasing(0.9, 0.25, 0.1, 0.75);
+
+    const canvas2 = document.getElementById('canvas2');
+    const ctx = canvas2.getContext('2d');
+
+    const width = canvas2.width = canvas2.clientWidth;
+    const height = canvas2.height = 150;
+
+    const helloTiles = generateTiles('潘冬燕');
+    const worldTiles = generateTiles('郑灿杰永远爱你', textCtx => {
+      textCtx.fillStyle = 'white';
+    });
+
+    frame();
+
+    function frame(timestamp = 0) {
+      requestAnimationFrame(frame);
+
+      const t = timestamp / 1400;
+
+      ctx.clearRect(0, 0, width, height);
+      ctx.save();
+
+      let rotationT = t % (Math.PI * 2);
+      const extra = rotationT > Math.PI ? Math.PI : 0;
+      rotationT =
+        rotationEasing((rotationT - extra) / Math.PI) * Math.PI + extra;
+
+      ctx.translate(width / 2, height / 2);
+      ctx.rotate(rotationT);
+      ctx.translate(-width / 2, -height / 2);
+
+      ctx.fillStyle = 'black';
+      ctx.fillRect(
+        width / -2,
+        height / 2,
+        width * 2,
+        height * 2
+      );
+
+      const helloT = cubicInOut(Math.cos(t - Math.PI) / 2 + 0.5);
+      drawTiles(helloTiles, helloT);
+
+      ctx.save();
+      ctx.translate(width / 2, height / 2);
+      ctx.rotate(Math.PI);
+      ctx.translate(width / -2, height / -2);
+      const worldT = cubicInOut(Math.cos(t) / 2 + 0.5);
+      drawTiles(worldTiles, worldT);
+      ctx.restore();
+
+      ctx.restore();
+    }
+
+    function generateTiles(text, styleFn, tilesX = 15, tilesY = 7) {
+      const textCanvas = new OffscreenCanvas(300, 120);
+      const textCtx = textCanvas.getContext('2d');
+
+      const textWidth = textCtx.canvas.width;
+      const textHeight = textCtx.canvas.height;
+
+      const tileWidth = textWidth / tilesX;
+      const tileHeight = textHeight / tilesY;
+
+      const verticalLines = [
+        [0, 0]
+      ];
+      for (let i = 1; i < tilesX; i++) {
+        const topX = tileWidth * i + random.range(-0.5, 0.5) * tileWidth * 0.8;
+        const bottomX =
+          tileWidth * i + random.range(-0.5, 0.5) * tileWidth * 0.8;
+        verticalLines.push([topX, bottomX]);
+      }
+      verticalLines.push([textWidth, textWidth]);
+
+      const horizontalLines = [
+        [0, 0]
+      ];    
+      for (let i = 1; i < tilesY; i++) {
+        const leftY =
+          tileHeight * i + random.range(-0.5, 0.5) * tileHeight * 0.8;
+        const rightY =
+          tileHeight * i + random.range(-0.5, 0.5) * tileHeight * 0.8;
+        horizontalLines.push([leftY, rightY]);
+      }
+      horizontalLines.push([textHeight, textHeight]);
+
+      // Given points (x1, y1) and (x2, y2), returns a and b where y = ax + b
+      const solveLine = (x1, y1, x2, y2) => {
+        const detA = x1 - x2;
+        const a = (y1 - y2) / detA;
+        const b = y1 - a * x1;
+
+        return [a, b];
+      };
+
+      const findIntersection = (verticalLine, horizontalLine) => {
+        const [a, b] = solveLine(
+          verticalLine[0],
+          0,
+          verticalLine[1],
+          textHeight
+        );
+        const [c, d] = solveLine(
+          0,
+          horizontalLine[0],
+          textWidth,
+          horizontalLine[1]
+        );
+
+        if (!isFinite(a)) {
+          const x = verticalLine[0];
+          const y = c * x + d;
+          return [x, y];
+        }
+
+        if (!isFinite(c)) {
+          return [0, b];
+        }
+
+        const x = (d - b) / (a - c);
+        const y = a * x + b;
+        return [x, y];
+      };
+
+      const tiles = [];
+      const maxDelay = verticalLines.length + horizontalLines.length - 4;
+      verticalLines.slice(0, -1).forEach((verticalLine, i) => {
+        const nextVerticalLine = verticalLines[i + 1];
+
+        horizontalLines.slice(0, -1).forEach((horizontalLine, j) => {
+          const nextHorizontalLine = horizontalLines[j + 1];
+
+          const topLeft = findIntersection(verticalLine, horizontalLine);
+          const topRight = findIntersection(nextVerticalLine, horizontalLine);
+          const bottomLeft = findIntersection(verticalLine, nextHorizontalLine);
+          const bottomRight = findIntersection(
+            nextVerticalLine,
+            nextHorizontalLine
+          );
+
+          // This is to make the tile overlap slightly, fixing a strange issue
+          topLeft[0] -= 0.5;
+          topLeft[1] -= 0.5;
+          topRight[0] += 0.5;
+          topRight[1] -= 0.5;
+          bottomLeft[0] -= 0.5;
+          bottomLeft[1] += 0.5;
+          bottomRight[0] += 0.5;
+          bottomRight[1] += 0.5;
+
+          let delay = maxDelay - i - j;
+
+          if (delay !== 0) {
+            delay += random.range(-0.25, 0.25);
+          }
+
+          tiles.push({
+            coords: [topLeft, topRight, bottomLeft, bottomRight],
+            delay,
+            translate: [random.range(-40, 40), random.range(140, 160) + j * 10],
+            rotate: random.range(-Math.PI / 2, Math.PI / 2)
+          });
+        });
+      });
+
+      textCtx.fillStyle = 'black';
+      textCtx.font = '30px sans-serif';
+      textCtx.textAlign = 'center';
+      textCtx.textBaseline = 'middle';
+
+      if (typeof styleFn === 'function') {
+        styleFn(textCtx);
+      }
+
+      tiles.forEach(({
+        coords
+      }, i) => {
+        const [topLeft, topRight, bottomLeft, bottomRight] = coords;
+
+        textCtx.clearRect(0, 0, textWidth, textHeight);
+        textCtx.save();
+
+        textCtx.beginPath();
+        textCtx.moveTo(...topLeft);
+        textCtx.lineTo(...topRight);
+        textCtx.lineTo(...bottomRight);
+        textCtx.lineTo(...bottomLeft);
+        textCtx.clip();
+
+        textCtx.fillText(text, textWidth / 2, textHeight / 2, textWidth);
+
+        tiles[i].bitmap = textCtx.canvas.transferToImageBitmap();
+
+        textCtx.restore();
+      });
+
+      return {
+        tiles,
+        tileWidth,
+        tileHeight,
+        textWidth,
+        textHeight
+      };
+    }
+
+    function drawTiles(tilesObj, t) {
+      const {
+        tiles,
+        tileWidth,
+        tileHeight,
+        textWidth,
+        textHeight
+      } = tilesObj;
+
+      ctx.save();
+
+      ctx.beginPath();
+      ctx.moveTo(0, 0);
+      ctx.lineTo(width, 0);
+      ctx.lineTo(width, height / 2);
+      ctx.lineTo(0, height / 2);
+      ctx.clip();
+
+      const offsetY = 50;
+      const centerX = (width - textWidth) / 2;
+      const centerY = (height - textHeight - offsetY) / 2;
+      ctx.translate(centerX, centerY);
+
+      // 0 <= t < 1
+      // Adjusted t range
+      const tRange = 0.6;
+
+      const maxDelay = Math.max(...tiles.map(({
+        delay
+      }) => delay));
+
+      tiles.forEach(({
+        bitmap,
+        coords,
+        delay,
+        rotate,
+        translate
+      }) => {
+        const [topLeft] = coords;
+
+        const offset = ((1 - tRange) * delay) / maxDelay;
+        // adjustedT can actually be more than 1 but that's okay
+        const adjustedT = Math.max(0, t / tRange - offset);
+
+        ctx.save();
+
+        const origin = [
+          topLeft[0] + tileWidth / 2,
+          topLeft[1] + tileHeight / 2
+        ];
+        // ctx.translate(origin[0], origin[1]);
+        ctx.translate(
+          topLeft[0] + translate[0] * adjustedT,
+          topLeft[1] + translate[1] * adjustedT
+        );
+        ctx.rotate(rotate * adjustedT);
+        ctx.translate(-origin[0], -origin[1]);
+        ctx.drawImage(bitmap, 0, 0, textWidth, textHeight);
+        ctx.restore();
+      });
+
+      ctx.restore();
+    }
+
+
+
+    function cubicInOut(t) {
+      return t < 0.5 ?
+        4.0 * t * t * t :
+        0.5 * Math.pow(2.0 * t - 2.0, 3.0) + 1.0
+    }
   </script> 
 </html> 
 
