@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>音乐播放器</title>
+    
+</head>
+<style>
+    body {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+audio {
+    margin-top: 20px;
+}
+
+.lyrics-container {
+    height: 300px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#lyrics {
+    list-style: none;
+    padding: 0;
+}
+
+#lyrics li {
+    padding: 5px 0;
+    transition: transform 0.3s, color 0.3s;
+}
+
+#lyrics li.active {
+    color: #ff0;
+    transform: scale(1.2);
+}
+
+</style>
+<body>
+    <input type="file" id="fileInput" accept="bgMusic.mp3">
+    <audio id="audio" controls></audio>
+    <div class="lyrics-container">
+        <ul id="lyrics">
+            <!-- 歌词将动态插入这里 -->
+        </ul>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.min.js"></script>
+</body>
+</html>
+<script>
+    document.getElementById('fileInput').addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    const audio = document.getElementById('audio');
+    const lyricsContainer = document.getElementById('lyrics');
+
+    if (file) {
+        const objectURL = URL.createObjectURL(file);
+        audio.src = objectURL;
+
+        jsmediatags.read(file, {
+            onSuccess: function(tag) {
+                const lyrics = tag.tags.lyrics ? tag.tags.lyrics.lyrics : 'No lyrics found';
+                const lyricsArray = parseLyrics(lyrics);
+                createLyricsElements(lyricsArray);
+                audio.addEventListener('timeupdate', () => updateLyrics(lyricsArray));
+            },
+            onError: function(error) {
+                console.log(error);
+            }
+        });
+    }
+});
+
+function parseLyrics(lyrics) {
+    return lyrics.split('\n').map(line => {
+        const [time, text] = line.split(']');
+        const seconds = time.replace('[', '').split(':').reduce((acc, time) => (60 * acc) + +time);
+        return { time: seconds, text };
+    });
+}
+
+function updateLyrics(lyricsArray) {
+    const currentTime = audio.currentTime;
+    lyricsArray.forEach((line, index) => {
+        const li = lyricsContainer.children[index];
+        if (currentTime >= line.time) {
+            li.classList.add('active');
+        } else {
+            li.classList.remove('active');
+        }
+    });
+}
+
+function createLyricsElements(lyricsArray) {
+    lyricsContainer.innerHTML = '';
+    lyricsArray.forEach(line => {
+        const li = document.createElement('li');
+        li.textContent = line.text;
+        lyricsContainer.appendChild(li);
+    });
+}
+
+</script>
