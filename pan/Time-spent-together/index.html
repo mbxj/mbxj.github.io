@@ -217,7 +217,7 @@
                         </svg>
                     </div>
                 </div>
-               <div style="padding: 0px 30px;margin: 0px 0 50px 0;" id="xiaojielaoda">
+                <div style="padding: 0px 30px;margin: 0px 0 50px 0;" id="xiaojielaoda">
                     <iframe src="https://music.163.com/outchain/player?type=0&id=12608321444" width="100%" height="450" frameborder="no" marginwidth="0" marginheight="0"></iframe> 
                 </div>
 		        <div style="padding: 0px 30px;margin: 0px 0 50px 0;" id="xiaojielaoda1">
@@ -244,7 +244,13 @@
             </div>
         </div>
     </div>
-
+<script>
+    if(/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)){
+        xiaojielaoda.style.display = 'none'
+    }else{
+        xiaojielaoda1.style.display = 'none'
+    }
+</script>
     <div class="container container-xiaojie mt-sm-5 mt-3" style="padding-top: 2rem;">
         <div class="col" style="border-radius: 10rem">
             <a href="list/My520-master/show.html" class="card col-lg-12 col-sm-12 col-sm-x-12 flex-h">
@@ -261,11 +267,18 @@
                     <p>有人愿意听你碎碎念念也很浪漫</p>
                 </div>
             </a>
-            <a class="card col-lg-12 col-sm-12 col-sm-x-12 flex-h" onclick="dj()">
+            <a class="card col-lg-12 col-sm-12 col-sm-x-12 flex-h" href="b/index.html">
                 <img src="assets/zijiimg/diandian.png" alt="">
                 <div class="text">
-                    <span><div class="xiaojiebb" href="">爱你</div></span>
-                    <p>爱你喔</p>
+                    <span><div class="xiaojiebb" href="">星空特效</div></span>
+                    <p>很美，做了一天了</p>
+                </div>
+            </a>
+            <a class="card card-b col-lg-12 col-12 col-sm-12 flex-h" href="../index.html">
+                <img src="assets/zijiimg/loveimg.png" alt="">
+                <div class="text">
+                    <span><div class="xiaojiebb" href="">Love Photo</div></span>
+                    <p>恋爱相册 记录最美瞬间</p>
                 </div>
             </a>
             <a class="card col-lg-12 col-sm-12 col-sm-x-12 flex-h" onclick="dj()">
@@ -273,13 +286,6 @@
                 <div class="text">
                     <span><div class="xiaojiebb" href="">关于我们</div></span>
                     <p>我们之间认识的经历回忆</p>
-                </div>
-            </a>
-            <a class="card card-b col-lg-12 col-12 col-sm-12 flex-h" onclick="dj()">
-                <img src="assets/zijiimg/loveimg.png" alt="">
-                <div class="text">
-                    <span><div class="xiaojiebb" href="">Love Photo</div></span>
-                    <p>恋爱相册 记录最美瞬间</p>
                 </div>
             </a>
             <a class="card card-b col-lg-12 col-12 col-sm-12 flex-h" onclick="dj()">
@@ -422,11 +428,6 @@
 
 
 <script>
-	    if(/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)){
-        xiaojielaoda.style.display = 'none'
-    }else{
-        xiaojielaoda1.style.display = 'none'
-    }
     (function () {
         var a_idx = 0;
         window.onclick = function (event) {
