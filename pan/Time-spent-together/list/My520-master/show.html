@@ -134,7 +134,12 @@
 Music.addEventListener('canplaythrough', function() {
     console.log('音频加载完成');
     alert('音频加载完成')
-    Music.play();
+    window.onclick = function() {
+  alert("点击我!");
+        Music.play();
+};
+    
+    
     // 执行其他需要在音频加载完成后执行的操作
 });
  
