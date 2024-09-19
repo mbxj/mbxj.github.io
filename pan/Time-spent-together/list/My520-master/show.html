@@ -126,10 +126,24 @@
 
 <script language="javascript">
     
-    window.addEventListener('click', function() {
+//     window.addEventListener('click', function() {
+//     Music.play();
+// console.log('播放')
+        
+// });
+Music.addEventListener('canplaythrough', function() {
+    console.log('音频加载完成');
+    alert('音频加载完成')
     Music.play();
-console.log('播放')
+    // 执行其他需要在音频加载完成后执行的操作
 });
+ 
+Music.addEventListener('error', function() {
+    console.log('音频加载失败');
+    // 处理加载错误的情况
+});
+ 
+Music.load(); 
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
         BirthDay = new Date("7/14/2024 22:29:00");//这个日期是可以修改的
