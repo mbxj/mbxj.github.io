@@ -133,12 +133,12 @@
 // });
 Music.addEventListener('canplaythrough', function() {
     console.log('音频加载完成');
+
+    var r=confirm("请按下按钮!");
+if (r==true){
     alert('音频加载完成')
-    window.onclick = function() {
-  alert("点击我!");
-        Music.play();
-};
-    
+	Music.play();
+}
     
     // 执行其他需要在音频加载完成后执行的操作
 });
