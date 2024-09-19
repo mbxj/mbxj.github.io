@@ -125,7 +125,11 @@
 <script src="js/demo.js"></script>
 
 <script language="javascript">
+    
+    window.addEventListener('scroll', function() {
     Music.play();
+console.log('播放')
+});
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
         BirthDay = new Date("7/14/2024 22:29:00");//这个日期是可以修改的
