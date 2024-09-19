@@ -126,20 +126,14 @@
 
 <script language="javascript">
     
-//     window.addEventListener('click', function() {
-//     Music.play();
-// console.log('播放')
+    window.addEventListener('click', function() {
+    Music.play();
+console.log('播放')
         
-// });
+});
 Music.addEventListener('canplaythrough', function() {
     console.log('音频加载完成');
-
-    var r=confirm("请按下按钮!");
-if (r==true){
-    alert('音频加载完成')
-	Music.play();
-}
-    
+alert('音频加载完成')
     // 执行其他需要在音频加载完成后执行的操作
 });
  
