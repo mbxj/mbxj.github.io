@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "./static/css/main.06675672.css",
+    "main.js": "./static/js/main.c0e09e1b.js",
+    "static/media/skystar.mp4": "./static/media/skystar.3f699c898d7a0e81d00a.mp4",
+    "index.html": "./index.html",
+    "main.06675672.css.map": "./static/css/main.06675672.css.map",
+    "main.c0e09e1b.js.map": "./static/js/main.c0e09e1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06675672.css",
+    "static/js/main.c0e09e1b.js"
+  ]
+}
