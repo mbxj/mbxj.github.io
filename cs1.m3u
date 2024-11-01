@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1,tvg-id="全国共享系统" tvg-name="全国共享系统" tvg-logo="https://epg.112114.xyz/logo/全国共享系统.png" group-title="其他",全国共享系统
-https://gyssi.link/viedo/gg.m3u8
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV1
 http://60.189.165.36:55555/rtp/233.50.201.118:5140
 #EXTINF:-1,tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="央视",CCTV2
